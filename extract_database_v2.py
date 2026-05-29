@@ -58,21 +58,33 @@ LIPI_MAP = {
     chr(212): '“', chr(213): '”', chr(211): '‘',
     chr(8212): '—', chr(8216): '‘', chr(8217): '’',
     chr(8221): '”', chr(8222): '„',
-    # Expanded mappings for missing legacy AdarshaLipi characters
-    chr(193): '্ন',  # Á -> ্ন
-    chr(153): 'ণ্ড',  # ™ -> ণ্ড
-    chr(219): 'থা',  # Û -> থা (since preceding consonant is already marked with hasant)
-    chr(220): 'দ্ধ',  # Ü -> ddh
-    chr(202): '্র',  # Ê -> rafala
-    chr(131): 'কট',  # ƒ -> kt
-    chr(34): 'শ্',   # " -> sh
-    chr(181): '্চ',  # µ -> ch
-    chr(245): 'ল্ল',  # õ -> ll
-    chr(253): 'হু',  # ý -> hu
-    chr(186): 'তু',  # º -> tu
-    chr(214): 'ষ্প',  # Ö -> shp
-    chr(132): 'ক্স',  # „ -> ks
-    chr(126): '~'    # ~ -> ~ (for E+tilde to Oi-car replacement)
+    # ─── Expanded conjuncts (verified against raw docx contexts) ───
+    chr(193): '্ন',   # Á -> ্ন (as in পূর্ণ)
+    chr(8482): 'ণ্ড',  # ™ -> ণ্ড (as in খণ্ড) — Unicode U+2122
+    chr(219): 'থ',    # Û -> থ (as in ব্যবস্থা — the া comes from next char ¡)
+    chr(220): 'দ্ধ',  # Ü -> দ্ধ (as in পদ্ধতি)
+    chr(202): '্র',   # Ê -> র-ফলা (as in প্রকার)
+    chr(402): 'কট',   # ƒ -> কট (as in ইলেকট্রনিক) — Unicode U+0192
+    chr(181): 'চ্',   # µ -> চ্ (as in উচ্চ — hasanta AFTER চ)
+    chr(245): 'ল্ল',  # õ -> ল্ল (as in উল্লেখ)
+    chr(253): 'হু',   # ý -> হু
+    chr(186): 'তু',   # º -> তু
+    chr(214): 'ষ্',   # Ö -> ষ্ (as in বিষ্ফোরণ — প comes from next char f)
+    chr(132): 'ক্স',  # „ -> ক্স
+    chr(126): '~',    # ~ -> ~ (for E+tilde → Oi-kar replacement)
+    # ─── Additional conjuncts from user verification report ───
+    chr(235): 'ব্দ',   # ë -> ব্দ (as in শব্দ)
+    chr(241): 'ম্ভ',   # ñ -> ম্ভ (as in সম্ভব)
+    chr(208): '্র',    # Ð -> র-ফলা (as in প্রাপক)
+    chr(169): 'ৃ',     # © -> ৃ (as in ব্যবহৃত)
+    chr(226): 'দ্র',   # â -> দ্র (as in মুদ্রণ)
+    chr(224): 'দৃ',    # à -> দৃ (as in দৃশ্য)
+    chr(376): 'দ্দ',   # Ÿ -> দ্দ (as in উদ্দেশ্য)
+    chr(187): 'ত্র',   # » -> ত্র (as in সশস্ত্র)
+    chr(184): 'ধ্যা',  # ¸ -> ধ্যা (as in অধ্যায়)
+    chr(229): 'ন্ধ',   # å -> ন্ধ (as in নিবন্ধ)
+    chr(240): 'ম্ব',   # ð -> ম্ব (as in নম্বর)
+    chr(192): '্ন',    # À -> ্ন (as in নিম্নলিখিত, সংলগ্নীর)
 }
 
 
@@ -113,8 +125,9 @@ def looks_like_lipi(text):
                                             171, 173, 174, 177, 178, 209, 210, 216,
                                             217, 218, 230, 231, 248, 249, 250, 252,
                                             170, 185, 190, 191, 196, 199, 201, 203,
-                                            193, 153, 219, 220, 202, 131, 34, 181,
-                                            245, 253, 186, 214, 132])
+                                            193, 8482, 219, 220, 202, 402, 181,
+                                            245, 253, 186, 214, 132, 235, 241,
+                                            208, 169, 226, 224, 376, 187, 184, 229])
     indicator_count = sum(1 for c in text if c in lipi_indicators)
     # If more than 15% of characters are AdarshaLipi indicators, it's likely Lipi text
     return indicator_count >= 1 and indicator_count / len(text) > 0.15
@@ -291,6 +304,48 @@ ABBR_ANNEXES = {
 BANGLA_ABBR_TABLES = [522, 531, 533, 535, 537, 541, 544, 546]
 
 
+def is_valid_annex_start(text):
+    t_upper = text.upper().strip()
+    
+    if len(text) >= 120:
+        return False
+        
+    # Plural ANNEXES is generally a section heading/intro
+    if 'ANNEXES' in t_upper and 'ANNEX' not in t_upper.replace('ANNEXES', ''):
+        return False
+        
+    # Standalone special headings
+    if t_upper in ['EXAMPLE OF A COMMANDED LETTER', 'EXAMPLE OF A DIRECTED LETTER', 'EXAMPLE OF A ROUTINE LETTER']:
+        return True
+        
+    # Must contain ANNEX or APPENDIX or APPX or ANX
+    if not any(w in t_upper for w in ['ANNEX', 'APPENDIX', 'APPX', 'ANX']):
+        return False
+        
+    # Enforce containing TO or SECTION for all annex/appendix headings
+    if not ('TO' in t_upper or 'SECTION' in t_upper):
+        return False
+        
+    words = t_upper.split()
+    if not words:
+        return False
+        
+    first_word = words[0]
+    
+    # Allowed first words
+    allowed_first = ['ANNEX', 'APPENDIX', 'APPX', 'ANX', 'SECRET', 'STANDARD', 'FORMAT', 'LAYOUT']
+    if first_word in allowed_first:
+        if first_word in ['STANDARD', 'FORMAT', 'LAYOUT', 'EXAMPLE'] and text.strip().endswith('.') and len(text) > 40:
+            return False
+        return True
+        
+    # Check if first word is a page prefix like 3D-2 or 16E-3
+    if re.match(r'^\d+[A-Z]\d*-\d+$', first_word):
+        return True
+        
+    return False
+
+
 def main():
     print("Opening JSSDM 2022 copy.docx...")
     with zipfile.ZipFile("JSSDM 2022 copy.docx") as z:
@@ -455,10 +510,9 @@ def main():
                             # Save accumulated paragraph group
                             combined = "\n".join([p['text'] for p in para_group])
                             if len(combined) > 30:
-                                rule_id = f"{sec_num:02d}00"
-                                # Generate sequential IDs
+                                # Generate section-prefixed sequential IDs
                                 count = len([r for r in rules if r['section'] == f'SECTION {sec_num}' and r.get('synthetic')])
-                                rule_id = f"{sec_num}{count+1:03d}"
+                                rule_id = f"S{sec_num}-{count+1:03d}"
                                 rules.append({
                                     "id": rule_id,
                                     "section": f"SECTION {sec_num}",
@@ -478,7 +532,7 @@ def main():
                     if len(combined) > 30:
                         count = len([r for r in rules if r['section'] == f'SECTION {sec_num}' and r.get('synthetic')])
                         rules.append({
-                            "id": f"{sec_num}{count+1:03d}",
+                            "id": f"S{sec_num}-{count+1:03d}",
                             "section": f"SECTION {sec_num}",
                             "category": current_sub_heading,
                             "annex": "",
@@ -723,43 +777,6 @@ def main():
         print("\n--- Extracting Templates ---")
         templates = []
 
-        # Template definitions - what to look for and where
-        TEMPLATE_DEFS = [
-            # Section 3: Correspondence types
-            {"section": 3, "name": "Directed Letter", "search": "DIRECTED", "type": "correspondence"},
-            {"section": 3, "name": "Demi-Official Letter", "search": "DEMI-OFFICIAL", "type": "correspondence"},
-            {"section": 3, "name": "Formal Official Letter", "search": "FORMAL", "type": "correspondence"},
-            {"section": 3, "name": "DO Letter", "search": "D.O.", "type": "correspondence"},
-            {"section": 3, "name": "Commanded Letter", "search": "COMMANDED", "type": "correspondence"},
-            {"section": 3, "name": "Note Sheet", "search": "NOTE SHEET", "type": "correspondence"},
-            {"section": 3, "name": "Loose Minute", "search": "LOOSE MINUTE", "type": "correspondence"},
-            # Section 4: Staff Papers
-            {"section": 4, "name": "Staff Paper", "search": "STAFF PAPER", "type": "staff_paper"},
-            # Section 5: Briefs
-            {"section": 5, "name": "Written Brief", "search": "WRITTEN BRIEF", "type": "brief"},
-            {"section": 5, "name": "Oral Brief", "search": "ORAL BRIEF", "type": "brief"},
-            # Section 6: Agenda/Minutes
-            {"section": 6, "name": "Agenda", "search": "AGENDA", "type": "meeting"},
-            {"section": 6, "name": "Minutes", "search": "MINUTES", "type": "meeting"},
-            # Section 9: Appreciations
-            {"section": 9, "name": "Military Appreciation", "search": "APPRECIATION", "type": "appreciation"},
-            # Section 11: Operation Orders
-            {"section": 11, "name": "Operation Order", "search": "OPERATION ORDER", "type": "operational"},
-            {"section": 11, "name": "Intelligence Annex", "search": "INTELLIGENCE ANNEX", "type": "operational"},
-            {"section": 11, "name": "Fire Support Annex", "search": "FIRE SUPPORT ANNEX", "type": "operational"},
-            {"section": 11, "name": "Service Support Annex", "search": "SERVICE SUPPORT ANNEX", "type": "operational"},
-            {"section": 11, "name": "Engineers Support Plan", "search": "ENGINEERS SUPPORT", "type": "operational"},
-            {"section": 11, "name": "Deception Plan Annex", "search": "DECEPTION PLAN", "type": "operational"},
-            # Section 12: Administrative Orders
-            {"section": 12, "name": "Administrative Order", "search": "ADMINISTRATIVE ORDER", "type": "operational"},
-            {"section": 12, "name": "Logistic Grouping Annex", "search": "LOGISTIC GROUPING", "type": "operational"},
-            {"section": 12, "name": "Naval Logistics Annex", "search": "NAVAL LOGISTICS", "type": "operational"},
-            # Section 14: Warning Orders
-            {"section": 14, "name": "Warning Order", "search": "WARNING ORDER", "type": "operational"},
-            # Section 15: Signal Messages
-            {"section": 15, "name": "Signal Message", "search": "MESSAGE", "type": "signal"},
-        ]
-
         # Extract templates from annexes containing examples/formats
         for sec_name, (start, end) in SECTION_BOUNDARIES.items():
             sec_match = re.search(r'\d+', sec_name)
@@ -767,51 +784,136 @@ def main():
                 continue
             sec_num = int(sec_match.group())
 
-            in_annex = False
-            annex_title = ""
-            annex_content = []
-
             sec_blocks = [b for b in blocks if start <= b['idx'] <= end]
+            sec_templates = []
 
-            for bi, b in enumerate(sec_blocks):
+            i = 0
+            n = len(sec_blocks)
+            while i < n:
+                b = sec_blocks[i]
                 if b['type'] == 'p' and b['text']:
                     text = b['text'].strip()
-
-                    # Detect if this paragraph looks like a template heading
-                    is_annex = 'ANNEX' in text.upper() or 'APPENDIX' in text.upper()
-                    has_kw = any(kw in text.upper() for kw in ['EXAMPLE', 'FORMAT', 'LAYOUT', 'FRAMEWORK', 'GUIDE', 'STANDARD'])
                     
-                    if (is_annex or has_kw) and len(text) < 120:
-                        # Save previous template
-                        if annex_content and annex_title:
-                            templates.append({
+                    if is_valid_annex_start(text):
+                        text_upper = text.upper()
+                        # Filter out inline references
+                        is_false = False
+                        for ref in ['SEE PARAGRAPH', 'SEE ANNEX', 'IS AT ANNEX', 'ARE AT ANNEX', 'ARE GIVEN AT', 'SHOWN IN', 'LISTED AT', 'GIVEN AT', 'REFER TO', 'REFERRED TO', 'INSERTED IN', 'OMITTED FOR', 'SEE ALSO', 'FOR INDENTING']:
+                            if ref in text_upper:
+                                is_false = True
+                                break
+                        if text_upper.startswith('FOR ') or text_upper.startswith('IF AN ') or text_upper.startswith('THIS ANNEX'):
+                            is_false = True
+                        if 'CONTENTS' in text_upper or 'LIST OF' in text_upper:
+                            is_false = True
+                            
+                        if not is_false:
+                            # Found a template header start!
+                            header_lines = [text]
+                            j = i + 1
+                            
+                            descriptive_title = ""
+                            last_header_idx = i
+                            
+                            # Standalone special headings need no lookahead
+                            if text_upper in ['EXAMPLE OF A COMMANDED LETTER', 'EXAMPLE OF A DIRECTED LETTER', 'EXAMPLE OF A ROUTINE LETTER']:
+                                descriptive_title = text
+                                
+                            if not descriptive_title:
+                                while j < i + 6 and j < n:
+                                    next_b = sec_blocks[j]
+                                    if next_b['type'] == 'p':
+                                        next_text = next_b['text'].strip()
+                                        if not next_text:
+                                            j += 1
+                                            continue
+                                        
+                                        # If it looks like a numbered paragraph, stop lookahead
+                                        if re.match(r'^\d{4}\.', next_text) or re.match(r'^\d+\.', next_text):
+                                            break
+                                            
+                                        next_upper = next_text.upper()
+                                        
+                                        # Check if it is a prefix continuation line
+                                        is_prefix_continuation = False
+                                        if any(w in next_upper for w in ['ANNEX', 'APPENDIX', 'SECTION', 'TO', 'SECRET']) and len(next_text) < 80:
+                                            is_prefix_continuation = True
+                                        elif re.match(r'^\d+[A-Z]-\d+$', next_text):
+                                            is_prefix_continuation = True
+                                        elif re.match(r'^\d+[A-Z]\d+-\d+$', next_text):
+                                            is_prefix_continuation = True
+                                            
+                                        if is_prefix_continuation:
+                                            header_lines.append(next_text)
+                                            last_header_idx = j
+                                            j += 1
+                                        else:
+                                            # It's not a prefix line, so it must be the descriptive title!
+                                            # Ensure it is short enough and doesn't start another annex
+                                            if len(next_text) < 120 and not is_valid_annex_start(next_text):
+                                                descriptive_title = next_text
+                                                header_lines.append(next_text)
+                                                last_header_idx = j
+                                            break
+                                    else:
+                                        break
+                                        
+                            # Combine header lines
+                            unique_lines = []
+                            for line in header_lines:
+                                if line not in unique_lines:
+                                    unique_lines.append(line)
+                                    
+                            prefix_parts = [l for l in unique_lines if l != descriptive_title]
+                            prefix = " ".join(prefix_parts)
+                            prefix = re.sub(r'\s+', ' ', prefix).strip()
+                            
+                            if descriptive_title:
+                                descriptive_title = re.sub(r'\s+', ' ', descriptive_title).strip()
+                                if prefix:
+                                    full_title = f"{prefix} - {descriptive_title}"
+                                else:
+                                    full_title = descriptive_title
+                            else:
+                                full_title = prefix
+                                
+                            sec_templates.append({
                                 "section": sec_num,
-                                "title": annex_title,
-                                "type": "example",
-                                "content": annex_content[:50]
+                                "title": full_title,
+                                "start_idx": sec_blocks[i]['idx'],
+                                "end_idx": sec_blocks[last_header_idx]['idx']
                             })
-                        
-                        annex_title = text
-                        annex_content = []
-                        in_annex = True
-                        continue
+                            
+                            i = last_header_idx + 1
+                            continue
+                i += 1
 
-                    if in_annex:
-                        # Skip page markers and section headings
+            # Extract content for each template in the section
+            for idx_t, t in enumerate(sec_templates):
+                content_start = t["end_idx"] + 1
+                if idx_t + 1 < len(sec_templates):
+                    content_end = sec_templates[idx_t + 1]["start_idx"] - 1
+                else:
+                    content_end = end
+
+                annex_content = []
+                for idx_b in range(content_start, content_end + 1):
+                    b = idx_to_block.get(idx_b)
+                    if not b:
+                        continue
+                    if b['type'] == 'p' and b['text']:
+                        text = b['text'].strip()
                         if text.upper().startswith('SECTION') and len(text) < 50:
                             continue
                         if re.match(r'^\d+[A-Z]-\d+$', text):
                             continue
                         annex_content.append({"type": "paragraph", "text": text})
+                    elif b['type'] == 'tbl':
+                        annex_content.append({"type": "table", "rows": b['rows'][:30]})
 
-                elif b['type'] == 'tbl' and in_annex:
-                    annex_content.append({"type": "table", "rows": b['rows'][:30]})
-
-            # Flush last annex
-            if in_annex and annex_content and annex_title:
                 templates.append({
                     "section": sec_num,
-                    "title": annex_title,
+                    "title": t["title"],
                     "type": "example",
                     "content": annex_content[:50]
                 })
@@ -873,10 +975,15 @@ def main():
         def sort_key(r):
             sec = re.search(r'\d+', r['section'])
             sec_num = int(sec.group()) if sec else 0
-            try:
-                id_num = int(r['id'])
-            except ValueError:
-                id_num = 0
+            rid = r['id']
+            if rid.startswith('S') and '-' in rid:
+                # Synthetic ID like S10-001 -> sort after real IDs
+                id_num = 90000 + int(rid.split('-')[1])
+            else:
+                try:
+                    id_num = int(rid)
+                except ValueError:
+                    id_num = 0
             return (sec_num, id_num)
 
         rules.sort(key=sort_key)
@@ -889,7 +996,6 @@ def main():
             if key not in seen_rules:
                 seen_rules.add(key)
                 unique_rules.append(r)
-        rules = unique_rules
 
         # Define vocab table mapping terminology pairs for Bangla/English toggle
         vocab = [
@@ -915,7 +1021,6 @@ def main():
         for upper_abbr, entries in abbr_map.items():
             unique_meanings = list(dict.fromkeys(e['meaning'] for e in entries))
             if len(unique_meanings) > 1:
-                # Check if we already have a 16B entry for this abbreviation
                 has_16b = any(e['subcategory'] == '16B' for e in entries)
                 if not has_16b:
                     meanings_str = ", ".join(unique_meanings)
