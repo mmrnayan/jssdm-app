@@ -2996,13 +2996,6 @@
       "text": "Contents of Information Fields."
     },
     {
-      "id": "1725",
-      "section": "SECTION 17",
-      "category": "Army Symbols",
-      "annex": "",
-      "text": "Contents of Information Fields."
-    },
-    {
       "id": "1726",
       "section": "SECTION 17",
       "category": "STEP UP",
@@ -3010,23 +3003,9 @@
       "text": "Examples.  Examples of various Army symbols are given at Annex"
     },
     {
-      "id": "1726",
-      "section": "SECTION 17",
-      "category": "Army Symbols",
-      "annex": "",
-      "text": "Examples.  Examples of various Army symbols are given at Annex"
-    },
-    {
       "id": "1727",
       "section": "SECTION 17",
       "category": "STEP UP",
-      "annex": "",
-      "text": "Rules for Making of map, overlay and sketch are given at Annex H to this section."
-    },
-    {
-      "id": "1727",
-      "section": "SECTION 17",
-      "category": "Army Symbols",
       "annex": "",
       "text": "Rules for Making of map, overlay and sketch are given at Annex H to this section."
     }
@@ -17935,7 +17914,8 @@
     {
       "section": 1,
       "title": "ANNEX A TO SECTION 1 - STAFF RESPONSIBILITIES",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "paragraph",
@@ -18143,6 +18123,7 @@
       "section": 2,
       "title": "ANX A TO ANX A TO",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -18186,6 +18167,7 @@
       "section": 2,
       "title": "APPX 1 TO ANX A TO",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -18391,8 +18373,33 @@
     },
     {
       "section": 2,
+      "title": "Standard Layout of Service Writing. - Rules for Typing.",
+      "type": "layout",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Time Zone."
+        },
+        {
+          "type": "paragraph",
+          "text": "System of Relating Days and Hours to an Operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Units of Measurement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Seniority of Armed Forces, Regiments, Corps and Units."
+        }
+      ]
+    },
+    {
+      "section": 2,
       "title": "ANNEX A TO",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "table",
@@ -18620,7 +18627,8 @@
     {
       "section": 2,
       "title": "ANNEX B TO SECTION 2 - RULES FOR TYPING",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX B",
       "content": [
         {
           "type": "paragraph",
@@ -18813,21 +18821,407 @@
         {
           "type": "paragraph",
           "text": "Horizontally a typewritten draft is to be spaced in the normal way throughout; but the vertical spacing between successive lines of text, including that immediately before and after the headings, is to be doubled. Normal vertical spacing is to be used outside the text i.e. before the subject heading and in and after the subscription block. The heading ‘DRAFT’ is to be inserted at the top centre of the first page, below the security classification or privacy marking when applicable. It will be in block capitals and not underlined like a subject heading. See page 3H-1."
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "title": "STANDARD CONVENTIONS - Punctuation",
+      "type": "example",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "With certain exceptions, normal punctuation is used in Service writing. The following additional conventions apply:"
         },
         {
           "type": "paragraph",
-          "text": "STANDARD CONVENTIONS"
+          "text": "Full Stops.    Full stops are used:"
         },
         {
           "type": "paragraph",
-          "text": "Punctuation"
+          "text": "After a paragraph or sub-paragraph number or letter which is not in brackets."
+        },
+        {
+          "type": "paragraph",
+          "text": "After paragraph and sub-paragraph heading and so on."
+        },
+        {
+          "type": "paragraph",
+          "text": "At the end of each sub-paragraph and further sub-divisions except in case of unnumbered ones e.g. list of examples(s). (See"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paragraph 15(c) (6) that follows.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "After the description of each reference or supplementary document."
+        },
+        {
+          "type": "paragraph",
+          "text": "Colon.  A colon is used to introduce a list or a succession of subparagraphs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exceptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Full stops and commas are not used in an address."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no comma after a salutation or a complimentary ending."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the text, no full stops are placed after, or unnecessary spaces left between, separate letters of familiar abbreviations."
+        },
+        {
+          "type": "paragraph",
+          "text": "No comma is to be used after a subscription."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a tabular display, full stops are normally omitted except after serial numbers or to separate sentences or disparate notes within a column."
+        },
+        {
+          "type": "paragraph",
+          "text": "Full stops are not used at the end of unnumbered sub-"
+        },
+        {
+          "type": "paragraph",
+          "text": "paragraph (s) or further subdivisions e.g. in case of list or example (s) excepting (complete) sentences. See Paragraph 0241 b (2) for example."
+        },
+        {
+          "type": "paragraph",
+          "text": "Salutation and Subscriptions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Salutations follow common usage and begin with initial capitals. Subscriptions are in stylized form; examples are given at the annexes to  Section 3."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inserting the Date"
+        },
+        {
+          "type": "paragraph",
+          "text": "In documents having the originator’s address block at the top right corner of the first page, the date or date-time-group is placed under that address block opposite the identifying reference, the first typewritten element commencing at the standard tabulation stop. In other correspondence the date or date-time group is placed under the signature block."
+        },
+        {
+          "type": "paragraph",
+          "text": "The day of the month or the date-time-group as applicable are omitted for later insertion in manuscript by the signatory."
+        },
+        {
+          "type": "paragraph",
+          "text": "Underlining"
+        },
+        {
+          "type": "paragraph",
+          "text": "All subject headings, main, group, paragraph and sub-paragraph headings are underlined."
+        },
+        {
+          "type": "paragraph",
+          "text": "Page Numbering"
+        },
+        {
+          "type": "paragraph",
+          "text": "The rules for page numbering are given in Section 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "Miscellaneous Points"
+        },
+        {
+          "type": "paragraph",
+          "text": "Addressees. Officially recognized abbreviations for departments and establishment titles, e.g. WASA, PWD etc., are to be used except in correspondence with foreign armed forces."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dates.  Dates, including dates in the text, are normally abbreviated, e.g."
+        },
+        {
+          "type": "paragraph",
+          "text": "19 Aug 22 except in formal, commanded and DO letters."
+        },
+        {
+          "type": "paragraph",
+          "text": "Catchwords.  Catchwords are not to be used."
+        },
+        {
+          "type": "paragraph",
+          "text": "Name, Rank and Appointment of Writer.  See Paragraph 0249."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ampersand. The ampersand is to be used instead of ‘and’ in departmental and similar titles, e.g. DAA&QMG, Messrs Saleh & Co, etc."
+        },
+        {
+          "type": "paragraph",
+          "text": "Right-Hand Margin.  For all briefs, minutes of meetings and summaries, a vertical line three centimetres from the right edge of the paper is drawn in. This margin commences with the first line of the first paragraph and ends in line with the last sentence on the first page. In subsequent pages, it commences with the first sentence and ends at the last line."
+        },
+        {
+          "type": "paragraph",
+          "text": "Annex and Appendix Blocks.  These blocks are inserted in the right-hand margin and underlined."
+        },
+        {
+          "type": "paragraph",
+          "text": "Appendix:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Example on Spacing the Horizontal Text."
+        },
+        {
+          "type": "paragraph",
+          "text": "RESTRICTED"
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "title": "EXAMPLE ON SPACING THE HORIZONTAL TEXT",
+      "type": "example",
+      "annex": "",
+      "content": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Example (Not to Scale)",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9"
+            ],
+            [
+              "",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Left-hand margin .",
+              ".",
+              "",
+              ".",
+              ".",
+              "",
+              ".",
+              "",
+              ".",
+              ".",
+              "",
+              ".",
+              ".",
+              "."
+            ],
+            [
+              ". .  . 1 inch or 3 cm)",
+              ".",
+              "",
+              ".",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "1 . T",
+              "h",
+              "e",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "1 2",
+              ".",
+              "T",
+              "h",
+              "e",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "a",
+              ".",
+              "T",
+              "h",
+              "e",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "(",
+              "l",
+              ")",
+              "T",
+              "h",
+              "e",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "(",
+              "a",
+              ")",
+              "T",
+              "h",
+              "e",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "i",
+              ".",
+              "",
+              "T",
+              "h"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "a",
+              "a"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "title": "Example (To Scale) - Left-hand 1.xxxThe quick brown fox margin of 12.xxxThe quick brown fox",
+      "type": "example",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "1 inch or 3 cm   a.xxxThe quick brown fox"
+        },
+        {
+          "type": "paragraph",
+          "text": "(1)xxxxThe quick brown fox"
+        },
+        {
+          "type": "paragraph",
+          "text": "(a).xxxThe quick brown fox   i.xxxThe quick brown fox"
+        },
+        {
+          "type": "paragraph",
+          "text": "ii.xxxThe quick brown fox"
+        },
+        {
+          "type": "paragraph",
+          "text": "aa.xxxThe quick brown fox"
+        },
+        {
+          "type": "paragraph",
+          "text": "(2).xxxThe quick brown fox"
+        },
+        {
+          "type": "paragraph",
+          "text": "b.xxxThe quick brown fox ................."
+        },
+        {
+          "type": "paragraph",
+          "text": "2B1-1"
+        },
+        {
+          "type": "paragraph",
+          "text": "RESTRICTED"
         }
       ]
     },
     {
       "section": 2,
       "title": "APPENDIX 1 TO ANNEX B TO SECTION 2 - 10 11 12",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 1",
       "content": [
         {
           "type": "paragraph",
@@ -18858,7 +19252,8 @@
     {
       "section": 2,
       "title": "ANNEX C TO SECTION 2 - TIME ZONE",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "paragraph",
@@ -19061,7 +19456,8 @@
     {
       "section": 2,
       "title": "ANNEX D TO SECTION 2 SYSTEM OF RELATING DAYS AND HOURS TO AN OPERATION - Definitions",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX D",
       "content": [
         {
           "type": "paragraph",
@@ -19184,7 +19580,8 @@
     {
       "section": 2,
       "title": "ANNEX E TO SECTION 2 - UNITS OF MEASUREMENT",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX E",
       "content": [
         {
           "type": "paragraph",
@@ -19554,7 +19951,8 @@
     {
       "section": 2,
       "title": "ANNEX F TO SECTION 2 - SENIORITY OF ARMED FORCES, REGIMENTS, CORPS AND UNITS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX F",
       "content": [
         {
           "type": "paragraph",
@@ -19760,8 +20158,58 @@
     },
     {
       "section": 3,
-      "title": "ANNEX A TO SECTION 3 - STYLE OF ADDRESS",
+      "title": "Example of a Commanded Letter.",
       "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "Example of a Directed Letter.",
+      "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "Example of a Routine Letter.",
+      "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "Example of a Formal Letter.",
+      "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "Example of a Demi-official Letter.",
+      "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "Example of a Memorandum.",
+      "type": "memorandum",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "Example of a Loose Minute. - J. Example of a Note Sheet.",
+      "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "ANNEX A TO SECTION 3 - STYLE OF ADDRESS",
+      "type": "annex",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "paragraph",
@@ -19880,7 +20328,8 @@
     {
       "section": 3,
       "title": "APPENDIX 1 TO ANNEX A TO SECTION 3 - ADDRESSING COMMANDS, FORMATIONS AND UNITS: ARMY",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 1",
       "content": [
         {
           "type": "paragraph",
@@ -20087,7 +20536,8 @@
     {
       "section": 3,
       "title": "APPENDIX 2 TO ANNEX A TO SECTION 3 - ADDRESSING COMMANDS, FORMATIOINS AND UNITS: NAVY",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 2",
       "content": [
         {
           "type": "paragraph",
@@ -20296,7 +20746,8 @@
     {
       "section": 3,
       "title": "APPENDIX 3 TO ANNEX A TO SECTION 3 - ADDRESSING COMMANDS, FORMATIOINS AND UNITS: AIR FORCE",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 3",
       "content": [
         {
           "type": "paragraph",
@@ -20454,6 +20905,7 @@
       "section": 3,
       "title": "EXAMPLE OF A COMMANDED LETTER",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20469,6 +20921,7 @@
       "section": 3,
       "title": "EXAMPLE OF A DIRECTED LETTER",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20484,6 +20937,7 @@
       "section": 3,
       "title": "EXAMPLE OF A ROUTINE LETTER",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -20577,8 +21031,16 @@
     },
     {
       "section": 3,
-      "title": "3D-2 ANNEX E TO SECTION 3 - EXAMPLE OF A FORMAL LETTER",
+      "title": "3D-2 ANNEX E TO SECTION 3",
+      "type": "annex",
+      "annex": "ANNEX E",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "EXAMPLE OF A FORMAL LETTER",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20664,8 +21126,16 @@
     },
     {
       "section": 3,
-      "title": "3E-2 ANNEX F TO SECTION 3 - EXAMPLE OF A DEMI-OFFICIAL LETTER",
+      "title": "3E-2 ANNEX F TO SECTION 3",
+      "type": "annex",
+      "annex": "ANNEX F",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "EXAMPLE OF A DEMI-OFFICIAL LETTER",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20695,8 +21165,16 @@
     },
     {
       "section": 3,
-      "title": "ANNEX G TO SECTION 3 - EXAMPLE OF A MEMORANDUM",
-      "type": "example",
+      "title": "ANNEX G TO SECTION 3",
+      "type": "annex",
+      "annex": "ANNEX G",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "EXAMPLE OF A MEMORANDUM",
+      "type": "memorandum",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20722,8 +21200,16 @@
     },
     {
       "section": 3,
-      "title": "ANNEX H TO SECTION 3 - EXAMPLE OF A LOOSE MINUTE",
+      "title": "ANNEX H TO SECTION 3",
+      "type": "annex",
+      "annex": "ANNEX H",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "EXAMPLE OF A LOOSE MINUTE",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20753,8 +21239,16 @@
     },
     {
       "section": 3,
-      "title": "ANNEX J TO SECTION 3 - EXAMPLE OF A NOTE SHEET",
+      "title": "ANNEX J TO SECTION 3",
+      "type": "annex",
+      "annex": "ANNEX J",
+      "content": []
+    },
+    {
+      "section": 3,
+      "title": "EXAMPLE OF A NOTE SHEET",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20861,8 +21355,16 @@
     },
     {
       "section": 4,
-      "title": "ANNEX A TO SECTION 4 - LAYOUT OF A SERVICE PAPER",
-      "type": "example",
+      "title": "ANNEX A TO SECTION 4",
+      "type": "annex",
+      "annex": "ANNEX A",
+      "content": []
+    },
+    {
+      "section": 4,
+      "title": "LAYOUT OF A SERVICE PAPER",
+      "type": "layout",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20943,8 +21445,44 @@
     },
     {
       "section": 5,
-      "title": "ANNEX A TO SECTION 5 - FRAMEWORK OF AN INFORMATION BRIEF",
+      "title": "Framework of an Information Brief.",
+      "type": "format",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 5,
+      "title": "Framework of a Decision Brief. - Rules of Power Point Presentation.",
+      "type": "format",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 5,
+      "title": "Example of a Decision Brief.",
       "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 5,
+      "title": "Example of a Personality Brief.",
+      "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 5,
+      "title": "ANNEX A TO SECTION 5",
+      "type": "annex",
+      "annex": "ANNEX A",
+      "content": []
+    },
+    {
+      "section": 5,
+      "title": "FRAMEWORK OF AN INFORMATION BRIEF",
+      "type": "format",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -20974,8 +21512,16 @@
     },
     {
       "section": 5,
-      "title": "ANNEX B TO SECTION 5 - FRAMEWORK OF A DECISION BRIEF",
-      "type": "example",
+      "title": "ANNEX B TO SECTION 5",
+      "type": "annex",
+      "annex": "ANNEX B",
+      "content": []
+    },
+    {
+      "section": 5,
+      "title": "FRAMEWORK OF A DECISION BRIEF",
+      "type": "format",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -21013,7 +21559,8 @@
     {
       "section": 5,
       "title": "ANNEX C TO SECTION 5 - GUIDELINES FOR VISUAL/POWERPOINT PRESENTATION",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "paragraph",
@@ -21123,8 +21670,16 @@
     },
     {
       "section": 5,
-      "title": "ANNEX D TO SECTION 5 - EXAMPLE OF A DECISION BRIEF",
+      "title": "ANNEX D TO SECTION 5",
+      "type": "annex",
+      "annex": "ANNEX D",
+      "content": []
+    },
+    {
+      "section": 5,
+      "title": "EXAMPLE OF A DECISION BRIEF",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -21195,8 +21750,16 @@
     },
     {
       "section": 5,
-      "title": "ANNEX E TO SECTION 5 - EXAMPLE OF A PERSONALITY BRIEF",
+      "title": "ANNEX E TO SECTION 5",
+      "type": "annex",
+      "annex": "ANNEX E",
+      "content": []
+    },
+    {
+      "section": 5,
+      "title": "EXAMPLE OF A PERSONALITY BRIEF",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -21226,8 +21789,142 @@
     },
     {
       "section": 6,
-      "title": "ANNEX A TO SECTION 6 - LAYOUT OF AN AGENDA",
-      "type": "example",
+      "title": "Layout of the Minutes of Meeting",
+      "type": "layout",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "0615. Conventions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Subject Heading. There must be a subject heading, even if it is only the serial number of the meeting. The subject heading always includes the date and place of the meeting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Attendance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those present are listed by names and appointments in order of rank. Where ranks are equal, the seniority of Service should be followed; where ranks within a Service are equal, names are placed in alphabetical order by considering the first spelt out part of the name and not the letters of the initials e.g. M A, H M, etc. Decorations, qualifications, regiment/corps and service are not shown."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Chairman is listed first and is nominated as such against his appointment. The secretary is listed last and is similarly nominated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Where a person attends a meeting as the representative of another, both appointments are shown, e.g.:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lt Col Mohammed Ismail Hossain   GSO 1 Sigs (rep D Sigs)"
+        },
+        {
+          "type": "paragraph",
+          "text": "When a person is not present for the whole meeting, the item(s) for which he attended is indicated, eg:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lt Cdr Muhtadi Hasan            SO (Ops), Ops Dte"
+        },
+        {
+          "type": "paragraph",
+          "text": "(not for Item 2)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sqn Ldr F Karim          AD Ops, Air HQ"
+        },
+        {
+          "type": "paragraph",
+          "text": "(Item 5 only)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Order of Items. Subjects should normally be recorded in the order shown on the agenda and the ‘item’ in the minutes given the same number."
+        },
+        {
+          "type": "paragraph",
+          "text": "Headings.    Each item must have a heading and be underlined."
+        },
+        {
+          "type": "paragraph",
+          "text": "Speakers.    If individual speakers are mentioned in the minutes, they should be described by the appointments they hold or the department they represent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Action.  A 3-centimetre margin headed ‘Action’ duly underlined, is used on the right-hand side of each sheet of the minutes. Those required to take action on the minutes are restricted to those present or represented and they are nominated by appointment or department in the text and again in the ‘Action’ margin alongside."
+        },
+        {
+          "type": "paragraph",
+          "text": "Signature.    Minutes are signed by the secretary after approval by the chairman."
+        },
+        {
+          "type": "paragraph",
+          "text": "Distribution.    The distribution list shows as ‘Action’ addressees all who attended or were represented at the meeting. All others to whom the minutes are sent are listed under ‘Information’."
+        },
+        {
+          "type": "paragraph",
+          "text": "j. Security. The minutes of a meeting on a subject which merits security classification are marked accordingly. When items of varying security classification are discussed, each item must be marked with its own security classification duly underlined and bracketed after the item heading. However, the minutes as a whole must bear the classification of the most highly classified parts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Publishing/Issuing of Minutes"
+        },
+        {
+          "type": "paragraph",
+          "text": "0616. The chairman should normally approve the secretary’s draft within 48 hours of the close of the meeting and the minutes should be issued immediately thereafter to those who attended and others concerned."
+        },
+        {
+          "type": "paragraph",
+          "text": "0617. When a meeting is one of a regular series, agreement to the minutes is confirmed as the first action at the next meeting. In other cases a covering note can be attached to the minutes saying that agreement will be assumed unless amendments are proposed by a given date."
+        },
+        {
+          "type": "paragraph",
+          "text": "Miscellaneous Official Programs"
+        },
+        {
+          "type": "paragraph",
+          "text": "0618. Comparison among Seminar, Workshop, Symposium, and Panel Discussion. A comparison among seminar, workshop, symposium, and panel discussion is at Annex C to this section."
+        },
+        {
+          "type": "paragraph",
+          "text": "0619-0699. Reserved."
+        },
+        {
+          "type": "paragraph",
+          "text": "Annexes:"
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "title": "Layout of an Agenda.",
+      "type": "layout",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 6,
+      "title": "Layout of the Minute of a Meeting. - Seminar, Workshop, Symposium, Panel Discussion.",
+      "type": "layout",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 6,
+      "title": "ANNEX A TO SECTION 6",
+      "type": "annex",
+      "annex": "ANNEX A",
+      "content": []
+    },
+    {
+      "section": 6,
+      "title": "LAYOUT OF AN AGENDA",
+      "type": "layout",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -21261,8 +21958,16 @@
     },
     {
       "section": 6,
-      "title": "6A-2 ANNEX B TO SECTION 6 - LAYOUT OF THE MINUTES OF A MEETING",
-      "type": "example",
+      "title": "6A-2 ANNEX B TO SECTION 6",
+      "type": "annex",
+      "annex": "ANNEX B",
+      "content": []
+    },
+    {
+      "section": 6,
+      "title": "LAYOUT OF THE MINUTES OF A MEETING",
+      "type": "layout",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -21304,7 +22009,8 @@
     {
       "section": 6,
       "title": "ANNEX C TO SECTION 6 - SEMINAR, WORKSHOP, SYMPOSIUM, PANEL DISCUSSION",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "table",
@@ -21363,8 +22069,16 @@
     },
     {
       "section": 7,
-      "title": "ANNEX A TO SECTION 7 - EXAMPLE OF A SUMMARY OF A FILE",
+      "title": "ANNEX A TO SECTION 7",
+      "type": "annex",
+      "annex": "ANNEX A",
+      "content": []
+    },
+    {
+      "section": 7,
+      "title": "EXAMPLE OF A SUMMARY OF A FILE",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -21400,8 +22114,16 @@
     },
     {
       "section": 8,
-      "title": "ANNEX A TO SECTION 8 - EXAMPLE OF GRAPH IN A DOCUMENT",
+      "title": "ANNEX A TO SECTION 8",
+      "type": "annex",
+      "annex": "ANNEX A",
+      "content": []
+    },
+    {
+      "section": 8,
+      "title": "EXAMPLE OF GRAPH IN A DOCUMENT",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -21411,8 +22133,21 @@
     },
     {
       "section": 9,
+      "title": "Framework of an Appreciation. - Intelligence Preparation of Battlefield – Decision Making Process.",
+      "type": "format",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Estimate Process."
+        }
+      ]
+    },
+    {
+      "section": 9,
       "title": "ANNEX A TO SECTION 9",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "table",
@@ -22146,7 +22881,8 @@
     {
       "section": 9,
       "title": "APPENDIX 1 TO ANNEX A TO SECTION 9 - NOTES ON THE FRAMEWORK OF AN APPRECIATION",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 1",
       "content": [
         {
           "type": "paragraph",
@@ -22229,7 +22965,8 @@
     {
       "section": 9,
       "title": "ANNEX B TO SECTION 9 - INTELLIGENCE PREPARATION OF THE BATTLEFIELD – DECISION",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX B",
       "content": [
         {
           "type": "paragraph",
@@ -22436,7 +23173,8 @@
     {
       "section": 9,
       "title": "ANNEX C TO SECTION 9 - ESTIMATE PROCESS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "paragraph",
@@ -22490,8 +23228,101 @@
     },
     {
       "section": 11,
-      "title": "STANDARD LAYOUT FOR A FORMAL OPERATION ORDER ANNEX A TO SECTION 11",
+      "title": "Format",
+      "type": "format",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "1114. The format of an intelligence annex to an operation order is more comprehensive and rigid than those of other annexes and should be followed as far as possible. It may well be issued before the operation order."
+        },
+        {
+          "type": "paragraph",
+          "text": "Purpose of the Intelligence Annex"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intelligence annex:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Disseminates information on enemy forces, which is essential to the conduct of operations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instructs subordinate commanders to acquire information necessary for the conduct of an operation but which can only be obtained immediately before or during the operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gives any other necessary orders or guidance for the operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "This annex is not intended to serve as a substitute for intelligence collection plans."
+        },
+        {
+          "type": "paragraph",
+          "text": "Content"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intelligence annex should be kept brief and clear, by reference, where possible, to Supplementary Intelligence Reports (SUPINTREPS) and Standing Operating Procedures (SOPs). Material of limited interest or containing much detail should be included in appendices to the annex. A format is given at Annex H to this section."
+        },
+        {
+          "type": "paragraph",
+          "text": "1117 - 1199. Reserved."
+        },
+        {
+          "type": "paragraph",
+          "text": "Annexes:"
+        }
+      ]
+    },
+    {
+      "section": 11,
+      "title": "Standard Layout for a Formal Operation Order.",
+      "type": "layout",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "Outline Layout of a Joint Operation Order. - Example of an Army Operation Order (Brigade Operation Order).",
+      "type": "layout",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Example of an Army Operation Order (Division Operation Order)."
+        }
+      ]
+    },
+    {
+      "section": 11,
+      "title": "Example of a Naval Operation Order.",
       "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "Example of an Air Force Operation Order. Example of Confirmatory Notes.",
+      "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "Example of a Fragmentary Order in Message Form. Format for the Intelligence Annex to the Operation Order. Format for the Fire Support Annex to the Operation Order. - Overlay Operation Orders.",
+      "type": "format",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "STANDARD LAYOUT FOR A FORMAL OPERATION ORDER ANNEX A TO SECTION 11",
+      "type": "layout",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "table",
@@ -22649,8 +23480,16 @@
     },
     {
       "section": 11,
-      "title": "ANNEX B TO SECTION 11 - OUTLINE LAYOUT OF A JOINT OPERATION ORDER",
-      "type": "example",
+      "title": "ANNEX B TO SECTION 11",
+      "type": "annex",
+      "annex": "ANNEX B",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "OUTLINE LAYOUT OF A JOINT OPERATION ORDER",
+      "type": "layout",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -22717,17 +23556,14 @@
               ""
             ]
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "EXAMPLE OF AN ARMY OPERATION ORDER"
         }
       ]
     },
     {
       "section": 11,
-      "title": "ANNEX C TO - (Specimen Brigade Operation Order)",
-      "type": "example",
+      "title": "EXAMPLE OF AN ARMY OPERATION ORDER ANNEX C TO - (Specimen Brigade Operation Order)",
+      "type": "specimen",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "table",
@@ -22971,8 +23807,16 @@
     },
     {
       "section": 11,
-      "title": "APPENDIX 1 TO ANNEX C TO SECTION 11 - STATUS OF OPERATIONAL AND ADMINISTRATIVE COMMAND CONTROL AND AFFILIATION",
+      "title": "Example of an Operational Grouping Annex to an Operational - Order.",
       "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "APPENDIX 1 TO ANNEX C TO SECTION 11 - STATUS OF OPERATIONAL AND ADMINISTRATIVE COMMAND CONTROL AND AFFILIATION",
+      "type": "appendix",
+      "annex": "APPENDIX 1",
       "content": [
         {
           "type": "paragraph",
@@ -23132,7 +23976,8 @@
     {
       "section": 11,
       "title": "APPENDIX 2 TO ANNEX C TO SECTION 11 EXAMPLE OF AN OPERATIONAL GROUPING ANNEX TO AN OPERATION ORDER",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 2",
       "content": [
         {
           "type": "paragraph",
@@ -23148,6 +23993,7 @@
       "section": 11,
       "title": "ANX B TO - 1 DIV OPO 1/22",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -23353,13 +24199,17 @@
     },
     {
       "section": 11,
-      "title": "ANNEX D TO SECTION 11 - EXAMPLE OF AN ARMY OPERATION ORDER",
-      "type": "example",
+      "title": "ANNEX D TO SECTION 11",
+      "type": "annex",
+      "annex": "ANNEX D",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "EXAMPLE OF AN ARMY OPERATION ORDER - (Specimen Division Operation Order)",
+      "type": "specimen",
+      "annex": "",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "(Specimen Division Operation Order)"
-        },
         {
           "type": "paragraph",
           "text": "SECRET"
@@ -23555,13 +24405,18 @@
         {
           "type": "paragraph",
           "text": "Comd.   CO 2 Cav."
+        },
+        {
+          "type": "paragraph",
+          "text": "Loc. Ph wise loc at Anx C."
         }
       ]
     },
     {
       "section": 11,
       "title": "APPENDIX 1 TO ANNEX D TO SECTION 11 FORMAT OF AN INTELLIGENCE ANNEX",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 1",
       "content": [
         {
           "type": "paragraph",
@@ -23581,6 +24436,7 @@
       "section": 11,
       "title": "ANX A TO - 17 DIV OPO 1/22 DT 09 AUG 22",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -23731,7 +24587,8 @@
     {
       "section": 11,
       "title": "APPENDIX 5 TO ANNEX D TO SECTION 11 EXAMPLE OF AN ENGINEERS SUPPORT PLAN ANNEX",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 5",
       "content": [
         {
           "type": "paragraph",
@@ -23751,6 +24608,7 @@
       "section": 11,
       "title": "ANX C TO - 17 DIV OPO 1/22 DT 09 AUG 22",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -23958,6 +24816,7 @@
       "section": 11,
       "title": "ANNEX D TO SECTION 11 EXAMPLE OF A DECEPTION PLAN ANNEX SECRET",
       "type": "example",
+      "annex": "ANNEX D",
       "content": [
         {
           "type": "paragraph",
@@ -23973,6 +24832,7 @@
       "section": 11,
       "title": "ANX D TO - 17 DIV OPO 1/22 DT 09 AUG 22",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -24119,7 +24979,8 @@
     {
       "section": 11,
       "title": "APPENDIX 7 TO ANNEX D TO SECTION 11 EXAMPLE OF A SERVICE SUPPORT ANNEX",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 7",
       "content": [
         {
           "type": "paragraph",
@@ -24139,6 +25000,7 @@
       "section": 11,
       "title": "ANX F TO - 17 DIV OPO 1/22 DT 09 AUG 22",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -24366,8 +25228,16 @@
     },
     {
       "section": 11,
-      "title": "SECRET ANNEX E TO SECTION 11 - EXAMPLE OF A NAVAL OPERATION ORDER",
+      "title": "SECRET ANNEX E TO SECTION 11",
+      "type": "annex",
+      "annex": "ANNEX E",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "EXAMPLE OF A NAVAL OPERATION ORDER",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -24583,8 +25453,16 @@
     },
     {
       "section": 11,
-      "title": "ANNEX F TO SECTION 11 - EXAMPLE OF AN AIR FORCE OPERATION ORDER",
+      "title": "ANNEX F TO SECTION 11",
+      "type": "annex",
+      "annex": "ANNEX F",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "EXAMPLE OF AN AIR FORCE OPERATION ORDER",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -24645,6 +25523,7 @@
       "section": 11,
       "title": "ANNEX G TO SECTION 11 EXAMPLE OF CONFIRMATORY NOTES",
       "type": "example",
+      "annex": "ANNEX G",
       "content": [
         {
           "type": "table",
@@ -24853,13 +25732,17 @@
     },
     {
       "section": 11,
-      "title": "ANNEX H TO SECTION 11 - EXAMPLE OF A FRAGMENTARY ORDER IN MESSAGE FORM",
+      "title": "ANNEX H TO SECTION 11",
+      "type": "annex",
+      "annex": "ANNEX H",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "EXAMPLE OF A FRAGMENTARY ORDER IN MESSAGE FORM (Referred to Section 11 Paragraph 1109)",
       "type": "example",
+      "annex": "",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "(Referred to Section 11 Paragraph 1109)"
-        },
         {
           "type": "table",
           "rows": [
@@ -24873,7 +25756,8 @@
     {
       "section": 11,
       "title": "ANNEX J TO SECTION 11 FORMAT FOR THE INTELLIGENCE ANNEX TO THE OPERATION ORDER - ",
-      "type": "example",
+      "type": "format",
+      "annex": "ANNEX J",
       "content": [
         {
           "type": "paragraph",
@@ -24892,7 +25776,8 @@
     {
       "section": 11,
       "title": "ANNEX …….. TO - OPERATION ORDER ……",
-      "type": "example",
+      "type": "annex",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -24911,7 +25796,8 @@
     {
       "section": 11,
       "title": "ANNEX ………(INTELLIGENCE) TO OPERATION ORDER ……………. - References:",
-      "type": "example",
+      "type": "annex",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -25074,7 +25960,8 @@
     {
       "section": 11,
       "title": "ANNEX K TO SECTION 11 FORMAT FOR THE FIRE SUPPORT ANNEX TO THE OPERATION ORDER - General",
-      "type": "example",
+      "type": "format",
+      "annex": "ANNEX K",
       "content": [
         {
           "type": "paragraph",
@@ -25109,7 +25996,8 @@
     {
       "section": 11,
       "title": "ANNEX …. TO - OPERATION ORDER",
-      "type": "example",
+      "type": "annex",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -25132,7 +26020,8 @@
     {
       "section": 11,
       "title": "ANNEX ….. (FIRE SUPPORT) - TO OPERATION ORDER ….. - References:",
-      "type": "example",
+      "type": "annex",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -25165,15 +26054,15 @@
         {
           "type": "paragraph",
           "text": "Friendly Forces."
-        },
-        {
-          "type": "paragraph",
-          "text": "Outline of higher unit or formation plan."
-        },
-        {
-          "type": "paragraph",
-          "text": "Outline of higher and adjacent unit or formation fire support plans."
-        },
+        }
+      ]
+    },
+    {
+      "section": 11,
+      "title": "Outline of higher unit or formation plan. - Outline of higher and adjacent unit or formation fire support plans.",
+      "type": "layout",
+      "annex": "",
+      "content": [
         {
           "type": "paragraph",
           "text": "Note additional air, naval and nuclear resources supporting the unit or formation."
@@ -25333,13 +26222,61 @@
         {
           "type": "paragraph",
           "text": "Miscellaneous.     May include:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trajectory limitations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Frequency allocations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reference to Naval Gunfire Support Order of Appendix."
+        },
+        {
+          "type": "paragraph",
+          "text": "Page Number"
+        },
+        {
+          "type": "paragraph",
+          "text": "(SECURITY CLASSIFICATION)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coordinating Instructions. These may include:"
+        },
+        {
+          "type": "paragraph",
+          "text": "FSCL (Fire Support Coordination Line)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Coordinating instructions on targets to be engaged by more than one delivery system."
+        },
+        {
+          "type": "paragraph",
+          "text": "Modification instructions."
+        },
+        {
+          "type": "paragraph",
+          "text": "SERVICE SUPPORT."
         }
       ]
     },
     {
       "section": 11,
-      "title": "APPENDIX 1 TO ANNEX K TO SECTION 11 - EXAMPLE OF AN AIR RECONNAISSANCE REQUEST/TASK MESSAGE",
+      "title": "APPENDIX 1 TO ANNEX K TO SECTION 11",
+      "type": "appendix",
+      "annex": "APPENDIX 1",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "EXAMPLE OF AN AIR RECONNAISSANCE REQUEST/TASK MESSAGE",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -25416,8 +26353,16 @@
     },
     {
       "section": 11,
-      "title": "APPENDIX 2 TO ANNEX K TO SECTION 11 - EXAMPLE OF AN AIR REQUEST/TASK MESSAGE",
+      "title": "APPENDIX 2 TO ANNEX K TO SECTION 11",
+      "type": "appendix",
+      "annex": "APPENDIX 2",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "EXAMPLE OF AN AIR REQUEST/TASK MESSAGE",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -25548,7 +26493,8 @@
     {
       "section": 11,
       "title": "ANNEX L TO SECTION 11 - OVERLAY OPERATION ORDER",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX L",
       "content": [
         {
           "type": "paragraph",
@@ -25665,37 +26611,36 @@
         {
           "type": "paragraph",
           "text": "Appendices:"
-        },
-        {
-          "type": "paragraph",
-          "text": "Example of an Overlay Operation Order (Division)."
-        },
-        {
-          "type": "paragraph",
-          "text": "Example of an Overlay Operation Order (Brigade)."
         }
       ]
     },
     {
       "section": 11,
-      "title": "APPENDIX 1 TO ANNEX L TO SECTION 11 - EXAMPLE OF AN OVERLAY OPERATION ORDER (DIVISION)",
+      "title": "Example of an Overlay Operation Order (Division).",
       "type": "example",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "11L1-1"
-        }
-      ]
+      "annex": "",
+      "content": []
     },
     {
       "section": 11,
-      "title": "APPENDIX 2 TO ANNEX L TO SECTION 11 - EXAMPLE OF AN OVERLAY OPERATION ORDER",
+      "title": "Example of an Overlay Operation Order (Brigade). APPENDIX 1 TO ANNEX L TO SECTION 11",
+      "type": "appendix",
+      "annex": "APPENDIX 1",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "EXAMPLE OF AN OVERLAY OPERATION ORDER (DIVISION) 11L1-1 APPENDIX 2 TO ANNEX L TO SECTION 11",
+      "type": "appendix",
+      "annex": "APPENDIX 2",
+      "content": []
+    },
+    {
+      "section": 11,
+      "title": "EXAMPLE OF AN OVERLAY OPERATION ORDER - (BRIGADE)",
       "type": "example",
+      "annex": "",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "(BRIGADE)"
-        },
         {
           "type": "paragraph",
           "text": "11L2-1"
@@ -25704,25 +26649,412 @@
     },
     {
       "section": 12,
-      "title": "ANNEX B TO SECTION 12 - EXAMPLE OF AN OVERLAY ADMINISTRATIVE ORDER (DIVISION)",
-      "type": "example",
+      "title": "Standard Layout",
+      "type": "layout",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
-          "text": "RESTRICTED"
+          "text": "The standard form of administrative order used by the Army and the Air Force is not suitable for the use in the Navy whose needs are met by the operation order and a standard naval logistics annex to it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example of administrative orders and naval logistics annexes are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Army Administrative Order – Annex A and B for Brigade and Division Administrative Order respectively."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naval Logistics Annex – Annex C."
+        },
+        {
+          "type": "paragraph",
+          "text": "Air Force Administrative Order – Annex D."
+        },
+        {
+          "type": "paragraph",
+          "text": "1205-1299. Reserved."
+        },
+        {
+          "type": "paragraph",
+          "text": "Annexes:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example of an Army Administrative Order (Brigade Order)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example of an overlay Administrative Order (Division)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example of a Logistic Grouping Annex to an Administrative Order."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example of an Army Administrative Order (Division Order)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Example of Naval Logistics Annex to an Operation Order."
         }
       ]
     },
     {
       "section": 12,
+      "title": "Example of an Air Force Administrative Order.",
+      "type": "example",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "12-2"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "EXAMPLE OF AN ARMY ADMINISTRATIVE ORDER  (Specimen Brigade Administrative Order)",
+              "ANNEX A TO SECTION 12"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "SECRET (No change from OO/OpO) (1) IMMEDIATE Copy No …. of  29 Total Pages……… HQ 62 Inf Bde SHUBOLONG 3548 06.02.2626.121.55.004.22 (2)  Aug 22 ADMINO 2/22 Related OpO 3/22 (3) Ref: (4) A. BANGLADESH Sheets 84B/1; 1:50,000. Time Z Used Throughout the Order:    FOXTROT. 1. SITUATION. (5) (6) (7) En Forces. See 62 Inf Bde INTSUM 3 dt 04 Aug. Air Sit. Parity expected. Friendly Forces. (8) Bdry. Anx A. (May refer to Anx of related OpO) 1 of  9 SECRET"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Notes: (Abbreviations used sparingly)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Change from Oral Orders.   If there has been no administrative conference, this space is left blank. If there were, such expressions as ‘No change from OOs’ or ‘No change from OOs except Para 4’ are used."
+        },
+        {
+          "type": "paragraph",
+          "text": "Date-Time Group.   The Date-Time Group is to be filled in when the order is signed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Related Operation Order.   It is often desirable to refer to the operation order to which the administrative order relates. As such it is taken out of ‘Reference’ and put in here. For this example, the administrative order relates to the operation order given at Annex C to Section 11."
+        },
+        {
+          "type": "paragraph",
+          "text": "References."
+        },
+        {
+          "type": "paragraph",
+          "text": "References may include both maps and other papers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The method of describing maps is laid down in Section 2 Paragraph 0234."
+        },
+        {
+          "type": "paragraph",
+          "text": "Abbreviations.  The rules for operational writing apply except for paragraph headings, which are written in full, and all capitals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paragraphing."
+        },
+        {
+          "type": "paragraph",
+          "text": "The administrative order consists of main paragraphs headed as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "SITUATION. (6) PERSONNEL."
+        },
+        {
+          "type": "paragraph",
+          "text": "MISSION. (7) CIVIL-MILITARY COOPERATION."
+        },
+        {
+          "type": "paragraph",
+          "text": "GENERAL. (8) MISCELLANEOUS."
+        },
+        {
+          "type": "paragraph",
+          "text": "MATERIEL AND (9) COMMAND AND SERVICES. SIGNAL."
+        },
+        {
+          "type": "paragraph",
+          "text": "MEDICAL."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "SECRET BSD CHATTOGRAM 6348.    Remains open. Time of drawing 2300 to 0500 hrs. Ordep CHATTOGRAM.    Remains open. Time of drawing 2300 to 0500 hrs. EME. 610 Med Wksp CHATTOGRAM.   Remains open. Rcr Det 610 Med Wksp CHATTOGRAM. Closes present loc at 070600 Aug 22 and opens at SHUBOLONG by 071200 Aug 22. Med. CMH CHATTOGRAM.      Remains open. Amb Det CMH CHATTOGRAM.     Estb at KALIRI 962173 from 072015 Aug. Div PW Cage.     Remains open in present loc. c. Atts and Dets.    (9)     (Eff  from 070500 Aug 22 unless shown otherwise) (1) Atts. (a) In Sp and UCDM. 11 ST Coy 22 Fd Amb 2 SECRET"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Paragraphs 1 and 2 (SITUATION and MISSION) are obligatory. Other paragraphs are optional and are used as required, e.g. the CIVIL MILITARY COOPERATION and MISCELLANEOUS headings are omitted from this example. The last paragraph will normally be COMMAND AND SIGNAL."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paragraphs after 1 and 2 do not retain fixed numbers as in operation order."
+        },
+        {
+          "type": "paragraph",
+          "text": "‘SITUATION’. This paragraph should contain no more than is necessary for understanding the rest of the order. It may therefore be very short if the order is issued in conjunction with an operation order or if the detail can be given on an overlay. It may, however, be necessary to start the"
+        },
+        {
+          "type": "paragraph",
+          "text": "paragraph with a brief introduction if the general picture cannot adequately be covered under ‘En Forces’, ‘Friendly Forces’ and ‘Atts and Dets’. For instance, a political situation influencing the commander’s mission or course of action may require to be stated separately. Not all logistic units will necessarily have received a copy of the operation order, and so, an administrative order must contain enough detail for, the logistic units to have a clear understanding of the commanders overall operational plan. This can be ensured by including one sub-paragraph “Own Op"
+        },
+        {
+          "type": "paragraph",
+          "text": "Design/Concept” under ‘Friendly Forces’ as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "Friendly Forces."
+        },
+        {
+          "type": "paragraph",
+          "text": "The verb is in the present tense."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sequence is the same as for ‘MATERIEL AND SERVICES’, ‘MEDICAL’, and ‘PERSONNEL’ Paragraphs (see"
+        },
+        {
+          "type": "paragraph",
+          "text": "Notes 13 and 15)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Only those higher formation logistic units likely to affect the originator should be listed."
+        },
+        {
+          "type": "paragraph",
+          "text": "An overlay showing boundaries in the divisional area would probably be issued with the operation order. It is often simpler and clearer to show the locations and opening times  of  ‘Friendly  Forces (logistic units and installations)"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "SECRET UCM and UCDM. 2 MP Pl UCDM. Coy, 15 Div Sp Bn Coy, 15 Div Sp Bn 1 Ansar Bn 4 Fd Regt P Bty, 28 Med Regt P Bty, 305 AD Regt 7 Fd Coy Dets. A Coy, 31 EB to UCDM 49 Inf Bde Changes in Admin Comd.    (9) UCADMIN 1 Ansar Bn (from UCDM) eff 071200 Aug 22 MISSION.   (10)   'Maint 62 Inf Bde during capr of Objs A    and B. GENERAL. (11) Gen Outline. BAA mov Ni 06/07 Aug 22. Proposed new layout at Anx B, Mov Table Anx C. Log Gp. (12) Anx D. Tfc Cir Plan. 17 Inf Div resp for TC org behind Present 62  Inf Bde conc area. Cct at Anx A. 3 SECRET"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "on the boundaries map/trace as an alternative to listing them at Paragraph lb. Clarity is the criterion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Attachments and Detachments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Scope. Only attachments and detachments to and from the formation initiating the administrative order are included and not changes within it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Logistic Grouping.    It is not necessary to show attachments and detachments if they are covered under ‘Logistic Grouping’ (see Paragraph 3b and Notes 11b and 12), but they may be included if this is necessary for clarity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Command Responsibility.  The status of command, both operational and administrative, must be shown for logistic units but only administrative command status will usually be necessary for other units. The logistic units will be listed in precedence of their status of operational command and, within these categories, by their status of administrative command. See Appendix 1 to Annex C to Section 11. However, status of operational command takes precedence over status of administrative command e.g."
+        },
+        {
+          "type": "paragraph",
+          "text": "UC and UCADMIN"
+        },
+        {
+          "type": "paragraph",
+          "text": "UC and UCDM"
+        },
+        {
+          "type": "paragraph",
+          "text": "INSPUCM and UCDM"
+        },
+        {
+          "type": "paragraph",
+          "text": "Residual Responsibility for Detachments. The operational/ administrative status shown for detachments is the status passed over to another unit/formation. The residual responsibility stays with the parent formation e.g. if 19 ST Bn is UC and UCADMIN 17 Inf  Div, the detachment of one company namely 11 ST Coy to in support and UCDM 62 Inf Bde as in this example would still leave 17 Inf Div responsible for all administrative matters less DM (daily maintenance) of that detached company."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "",
+              "SECRET"
+            ],
+            [
+              "4.",
+              "MATERIEL AND SERVICE. (13) Ammo. (14) Std AP under con of bde gp to be estb as fol: Ser Type Loc Time For 1. Arty 649326 071300 4 Fd Regt 2. Other Natures 656347 080900 8 and 23 EB 3. Other Natures 662401 080900 All other units Dumping. 60 rpg 122mm to be dumped at gun posns on Ni 07/08 Aug 22. Details at Anx E. POL.   (14)     PP remains open for all units at present loc  until capr of Obj A. Further locs and opening times of PP will be intimated later. Rat.      (14)     All units will be issued with 2 days’ rat by Ni 07/08 Aug 22. Drawing times will be intimated later. Water. WPs to be estb by 7 Fd Coy at GR-661425 and GR- 653772 by 071200 Aug 22. Until then unit resp. 4 SECRET",
+              "Ser",
+              "Type",
+              "Loc",
+              "Time",
+              "For",
+              "1.",
+              "Arty",
+              "649326",
+              "071300",
+              "4 Fd Regt",
+              "2.",
+              "Other Natures",
+              "656347",
+              "080900",
+              "8 and 23 EB",
+              "3.",
+              "Other Natures",
+              "662401",
+              "080900",
+              "All other units"
+            ],
+            [
+              "Ser",
+              "Type",
+              "Loc",
+              "Time",
+              "For"
+            ],
+            [
+              "1.",
+              "Arty",
+              "649326",
+              "071300",
+              "4 Fd Regt"
+            ],
+            [
+              "2.",
+              "Other Natures",
+              "656347",
+              "080900",
+              "8 and 23 EB"
+            ],
+            [
+              "3.",
+              "Other Natures",
+              "662401",
+              "080900",
+              "All other units"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Status of Command. The administrative orders must show both operational and administrative status of logistic units but only administrative status of other units (Note 9c). Various degrees of administrative command dealt in this paragraph are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "UCADMIN. Complete transfer of command, when a formation or unit is placed under command of another formation for administration, e.g. all Services, medical and personnel matters. In this instance, the formation/unit’s parent formation HQ has no residual administrative responsibility. However, units, which are normally part of a formation’s order of battle (ORBAT) and are administered by that formation in peacetime, are assumed to be UCADMIN that formation in war unless shown otherwise."
+        },
+        {
+          "type": "paragraph",
+          "text": "UCADMIN Less. When the temporary nature of the transfer makes it necessary to effect a complete change of administrative command, a formation or unit may be placed under command for certain specified matters, or UCADMIN less certain specified matters, e.g. UCADMIN less ordnance and routine A matters from 191000 Aug (‘Less ordnance’ does not affect ordnance responsibility for DM as defined below)."
+        },
+        {
+          "type": "paragraph",
+          "text": "UCDM.     When, a formation or unit is transferred for a so short time that it is placed under administrative command of the new formation for DM only, its parent formation HQ retains full responsibility for all other administrative matters. (Units detached to another formation are assumed to be UCDM to their new formation unless otherwise stated.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "From an administrative point of view, it is generally better for units to be attached or detached for DM only, unless the time away from the parent formation is likely to be considerable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Definitions.    ‘Routine A matters’ are defined as all personnel matters listed in Note 15, other than provost, stragglers posts, prisoner of war and reinforcements. ‘DM’ is defined as daily replenishments of field supplies, evacuation of casualties, provision of common user ordnance items and the repair and recovery of equipment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Times of Change of Status of Administrative Command."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "SECRET Tpt. Ech. A echs remain under unit con. B echs remain under bde con. Second Line. Composn. 11 ST Coy. Tasks. i. Provide APs as detailed at Para 4a (1). ii. Carr out dumping shown in Para 4a (2). iii. Provide veh as per Para 4e (2) (c). Unit Reqrs.    ST Coy vehs reqr for mov by units as fol: Ser Unit No of Veh Pd 1. 8 EB 7x3t, 3x1t Wef 070500 Aug 22 for whole duration of op 2. 23 EB 5x3t, 5x1t Wef 071800 Aug 22 for duration of attk on Obj A 3. 31 EB 7x1t, 3x3t Wef 070500 Aug 22 for duration of attk on Obj B Engr.    Plant Coy remains at DARGANJ 7928. Ord.     Det Ordep closes present loc at 061800 Aug 22. New loc Anx B. 5 SECRET",
+              "Ser",
+              "Unit",
+              "No of Veh",
+              "Pd",
+              "1.",
+              "8 EB",
+              "7x3t, 3x1t",
+              "Wef 070500 Aug 22 for whole duration of op",
+              "2.",
+              "23 EB",
+              "5x3t, 5x1t",
+              "Wef 071800 Aug 22 for duration of attk on Obj A",
+              "3.",
+              "31 EB",
+              "7x1t, 3x3t",
+              "Wef 070500 Aug 22 for duration of attk on Obj B"
+            ],
+            [
+              "Ser",
+              "Unit",
+              "No of Veh",
+              "Pd"
+            ],
+            [
+              "1.",
+              "8 EB",
+              "7x3t, 3x1t",
+              "Wef 070500 Aug 22 for whole duration of op"
+            ],
+            [
+              "2.",
+              "23 EB",
+              "5x3t, 5x1t",
+              "Wef 071800 Aug 22 for duration of attk on Obj A"
+            ],
+            [
+              "3.",
+              "31 EB",
+              "7x1t, 3x3t",
+              "Wef 070500 Aug 22 for duration of attk on Obj B"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Times at which status are effective will not necessarily be the same in an operation order and its related administrative order (e.g. if the administrative order was produced significantly later than the operation order, a unit which came ‘UC forthwith’ in the operation order might be ‘remains UCADMIN’ in the administrative order). Nor is it always desirable for administrative command to change at the same time as operational command. Ideally, administrative command should change during quiet periods in the replenishment cycle and therefore as a principle night would be a bad time."
+        }
+      ]
+    },
+    {
+      "section": 12,
+      "title": "ANNEX B TO SECTION 12",
+      "type": "annex",
+      "annex": "ANNEX B",
+      "content": []
+    },
+    {
+      "section": 12,
+      "title": "EXAMPLE OF AN OVERLAY ADMINISTRATIVE ORDER (DIVISION) 12B-1 - RESTRICTED",
+      "type": "example",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 12,
       "title": "ANNEX C TO SECTION 12 EXAMPLE OF A LOGISTIC GROUPING ANNEX TO AN ADMINISTRATIVE ORDER SECRET - Copy No …. of ….",
       "type": "example",
+      "annex": "ANNEX C",
       "content": []
     },
     {
       "section": 12,
       "title": "ANX A TO - 1 DIV ADMINO 2/22",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -25912,21 +27244,17 @@
     },
     {
       "section": 12,
-      "title": "ANNEX D TO SECTION 12 - EXAMPLE OF A DIVISION ADMINISTRATIVE ORDER ON DEFENCE",
+      "title": "ANNEX D TO SECTION 12",
+      "type": "annex",
+      "annex": "ANNEX D",
+      "content": []
+    },
+    {
+      "section": 12,
+      "title": "EXAMPLE OF A DIVISION ADMINISTRATIVE ORDER ON DEFENCE SECRET Copy No……..of Total Pages…… - HQ 20 Inf Div",
       "type": "example",
+      "annex": "",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "SECRET"
-        },
-        {
-          "type": "paragraph",
-          "text": "Copy No……..of Total Pages……"
-        },
-        {
-          "type": "paragraph",
-          "text": "HQ 20 Inf Div"
-        },
         {
           "type": "paragraph",
           "text": "PHULBARI 2209"
@@ -26114,19 +27442,77 @@
         {
           "type": "paragraph",
           "text": "201 AD Regt"
+        },
+        {
+          "type": "paragraph",
+          "text": "One Constr Coy 16 ECB"
+        },
+        {
+          "type": "paragraph",
+          "text": "One RE Coy 10 RE Bn"
+        },
+        {
+          "type": "paragraph",
+          "text": "MISSION.  Maint 20 Inf Div during its def op."
+        }
+      ]
+    },
+    {
+      "section": 12,
+      "title": "Layout of Log Instls Overlay and Tfc Circuit. (not incl) - Log Gp.",
+      "type": "layout",
+      "annex": "",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mov Plan of Log Units. (not incl)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dumping Instrs. (not incl)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ord Plan. (not incl)"
+        },
+        {
+          "type": "paragraph",
+          "text": "EME Plan. (not incl)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Postal Plan. (not incl)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Med Plan. (not incl)"
+        },
+        {
+          "type": "paragraph",
+          "text": "J. Rft Plan. (not incl)"
+        },
+        {
+          "type": "paragraph",
+          "text": "B-11"
+        },
+        {
+          "type": "paragraph",
+          "text": "SECRET"
         }
       ]
     },
     {
       "section": 12,
       "title": "APPENDIX 2 TO ANNEX D TO SECTION 12 AN EXAMPLE OF LOGISTIC GROUPING ANNEX TO A DIVISION ADMINISTRATIVE ORDER SECRET",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 2",
       "content": []
     },
     {
       "section": 12,
       "title": "ANX C TO 20 INF DIV ADMINO 2/22 - DT 09 AUG 22",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
@@ -26334,6 +27720,7 @@
       "section": 12,
       "title": "ANNEX E TO SECTION 12 EXAMPLE OF A NAVAL LOGISTICS ANNEX TO AN OPERATION ORDER",
       "type": "example",
+      "annex": "ANNEX E",
       "content": [
         {
           "type": "table",
@@ -26386,7 +27773,8 @@
     {
       "section": 12,
       "title": "APPENDIX 1 TO ANNEX E TO SECTION 12 NOTES ON THE LOGISTICS ANNEX (1) - Basic Information.",
-      "type": "example",
+      "type": "appendix",
+      "annex": "APPENDIX 1",
       "content": [
         {
           "type": "paragraph",
@@ -26568,8 +27956,16 @@
     },
     {
       "section": 12,
-      "title": "ANNEX F TO SECTION 12 - EXAMPLE OF AN AIR FORCE ADMINISTRATIVE ORDER",
+      "title": "ANNEX F TO SECTION 12",
+      "type": "annex",
+      "annex": "ANNEX F",
+      "content": []
+    },
+    {
+      "section": 12,
+      "title": "EXAMPLE OF AN AIR FORCE ADMINISTRATIVE ORDER",
       "type": "example",
+      "annex": "",
       "content": [
         {
           "type": "table",
@@ -26590,14 +27986,106 @@
       ]
     },
     {
-      "section": 14,
-      "title": "ANNEX A TO SECTION 14 - SPECIMEN WARNING ORDER",
-      "type": "example",
+      "section": 13,
+      "title": "Outline plan. - Reconnaissance required before the operation.",
+      "type": "layout",
+      "annex": "",
       "content": [
         {
           "type": "paragraph",
-          "text": "_________________________________________________________________"
+          "text": "Preliminary deception arrangements."
         },
+        {
+          "type": "paragraph",
+          "text": "Moves contemplated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preliminary administrative arrangements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rehearsals of specialized phases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Security on a ‘need to know’ basis."
+        },
+        {
+          "type": "paragraph",
+          "text": "INSTRUCTIONS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Operation Instructions"
+        },
+        {
+          "type": "paragraph",
+          "text": "An operation instruction is often addressed to the recipient by name, and signed by the commander personally. The recipient will have to act on his own judgment and the scope of an instruction will be wider than that of an order. For these reasons, an instruction is usually worded in less formal language than an order. However, the mission still expressed in the executive, commander’s intentions bearing upon its execution may be expressed by ‘should’ rather than"
+        },
+        {
+          "type": "paragraph",
+          "text": "‘Do..........’, ‘Attack........’, ‘is to’ or ‘are to’."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operation instructions follow the general layout for operation and administrative orders described in Sections 11 and 12. However, no particular heading is mandatory and only those, which are required, are to be included."
+        },
+        {
+          "type": "paragraph",
+          "text": "The methods of issuing operation instructions are the same as those given in Section 11 for an operation order."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operation instructions contain the commander’s general intention and allow his subordinates to think ahead and make preparations. They are normally issued instead of an order:"
+        },
+        {
+          "type": "paragraph",
+          "text": "To a commander with an independent mission."
+        },
+        {
+          "type": "paragraph",
+          "text": "Where the likely speed of movement or lack of information makes specific orders impossible or undesirable."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a commander wishes to communicate further intentions or to influence events when detailed written orders cease to be appropriate."
+        },
+        {
+          "type": "paragraph",
+          "text": "To meet contingencies that can only be partially foreseen, such as natural disasters or internal security operations. Such instructions will usually contain alternative courses of action to be selected in light of events."
+        },
+        {
+          "type": "paragraph",
+          "text": "Administrative Instructions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The purpose for which an administrative instruction is issued is similar to those of administrative orders. See Section 12. The format is determined by the specific requirements but it generally follows the framework outlined in Section"
+        },
+        {
+          "type": "paragraph",
+          "text": "12."
+        },
+        {
+          "type": "paragraph",
+          "text": "1314 – 1399 Reserved."
+        }
+      ]
+    },
+    {
+      "section": 14,
+      "title": "ANNEX A TO SECTION 14",
+      "type": "annex",
+      "annex": "ANNEX A",
+      "content": []
+    },
+    {
+      "section": 14,
+      "title": "SPECIMEN WARNING ORDER - _________________________________________________________________",
+      "type": "specimen",
+      "annex": "",
+      "content": [
         {
           "type": "paragraph",
           "text": "B.A.F. (Sig) – 34  (Large)"
@@ -26674,13 +28162,24 @@
     },
     {
       "section": 15,
-      "title": "ANNEX A TO SECTION 15 - SPECIMEN OF MESSAGE FORM",
+      "title": "Specimen of Message Form. - Message Precedence.",
+      "type": "specimen",
+      "annex": "",
+      "content": []
+    },
+    {
+      "section": 15,
+      "title": "Example of a Completed Message. ANNEX A TO SECTION 15",
       "type": "example",
+      "annex": "ANNEX A",
+      "content": []
+    },
+    {
+      "section": 15,
+      "title": "SPECIMEN OF MESSAGE FORM - _________________________________________________________________",
+      "type": "specimen",
+      "annex": "",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "_________________________________________________________________"
-        },
         {
           "type": "paragraph",
           "text": "B.A.F. (Sig) – 34"
@@ -26764,7 +28263,8 @@
     {
       "section": 15,
       "title": "ANNEX B TO SECTION 15 - MESSAGE PRECEDENCE",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX B",
       "content": [
         {
           "type": "table",
@@ -26902,13 +28402,17 @@
     },
     {
       "section": 15,
-      "title": "ANNEX C TO SECTION 15 - EXAMPLE OF A COMPLETED MESSAGE",
+      "title": "ANNEX C TO SECTION 15",
+      "type": "annex",
+      "annex": "ANNEX C",
+      "content": []
+    },
+    {
+      "section": 15,
+      "title": "EXAMPLE OF A COMPLETED MESSAGE - _________________________________________________________________",
       "type": "example",
+      "annex": "",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "_________________________________________________________________"
-        },
         {
           "type": "paragraph",
           "text": "B.A.F. (Sig) – 34"
@@ -27013,7 +28517,8 @@
     {
       "section": 16,
       "title": "ANNEX A TO SECTION 16 - GENERAL ABBREVIATIONS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "paragraph",
@@ -27340,8 +28845,1865 @@
     },
     {
       "section": 16,
+      "title": "Memorandum memo",
+      "type": "memorandum",
+      "annex": "",
+      "content": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Memorandum(s) of Understanding",
+              "MOU"
+            ],
+            [
+              "Message",
+              "msg"
+            ],
+            [
+              "Mile per hour",
+              "mph"
+            ],
+            [
+              "Miles per gallon",
+              "mpg"
+            ],
+            [
+              "Military",
+              "mil"
+            ],
+            [
+              "Military Credit Note",
+              "MC Note"
+            ],
+            [
+              "Military Dental Centre",
+              "MDC"
+            ],
+            [
+              "Military Engineering Services",
+              "MES"
+            ],
+            [
+              "Military Intelligence",
+              "MI"
+            ],
+            [
+              "Military Load Classification",
+              "MLC"
+            ],
+            [
+              "Military Operations",
+              "MO"
+            ],
+            [
+              "Military Police",
+              "MP"
+            ],
+            [
+              "Military Training Area",
+              "MTA"
+            ],
+            [
+              "Military Training Pamphlet",
+              "MTP"
+            ],
+            [
+              "Mine Counter Measure Vessel",
+              "MCMV"
+            ],
+            [
+              "Mine Countermeasure",
+              "MCM"
+            ],
+            [
+              "Ministry of Defence",
+              "MOD"
+            ],
+            [
+              "Ministry of Defence Constabulary",
+              "MODC"
+            ],
+            [
+              "Miscellaneous",
+              "misc"
+            ],
+            [
+              "Missile",
+              "msl"
+            ],
+            [
+              "Missile Engagement Zone",
+              "MEZ"
+            ],
+            [
+              "Missing in Action",
+              "MIA"
+            ],
+            [
+              "Mission",
+              "msn"
+            ],
+            [
+              "Mission Essential Task",
+              "MET"
+            ],
+            [
+              "Mission Oriented Training",
+              "MOT"
+            ],
+            [
+              "Mission Report",
+              "MISREP"
+            ],
+            [
+              "Mobile Dental Unit",
+              "MDU"
+            ],
+            [
+              "Mobile Forward Base",
+              "MFB"
+            ],
+            [
+              "Mobile Surgical Team",
+              "MST"
+            ],
+            [
+              "Mobile Technical Detachment",
+              "MTD"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Moving Target Indicator",
+              "MTI"
+            ],
+            [
+              "Multiple Launch Rocket System",
+              "MLRS"
+            ],
+            [
+              "Multiple Rocket Launcher",
+              "MRL"
+            ],
+            [
+              "Muzzle Velocity N",
+              "MV"
+            ],
+            [
+              "Named Area of Interest",
+              "NAI"
+            ],
+            [
+              "National",
+              "ntl"
+            ],
+            [
+              "National Committee on Security Affairs",
+              "NCSA"
+            ],
+            [
+              "National Security Intelligence",
+              "NSI"
+            ],
+            [
+              "National Air Defence Committee",
+              "NADC"
+            ],
+            [
+              "Naval Armament Inspection Organization",
+              "NAIO"
+            ],
+            [
+              "Naval Armament Store Depot",
+              "NASD"
+            ],
+            [
+              "Naval Aviation",
+              "NAV"
+            ],
+            [
+              "Naval Commando Advance",
+              "NCA"
+            ],
+            [
+              "Naval Commando Basic",
+              "NCB"
+            ],
+            [
+              "Naval Commando Trade",
+              "NCT"
+            ],
+            [
+              "Naval Control of Shipping",
+              "NCS"
+            ],
+            [
+              "Naval Gunfire Support",
+              "NGS"
+            ],
+            [
+              "Naval Headquarters",
+              "NHQ"
+            ],
+            [
+              "Naval Inflatable Lifesaving Equipment",
+              "NILE"
+            ],
+            [
+              "Naval Stores Depot",
+              "NSD"
+            ],
+            [
+              "Naval Staff Policy Committee",
+              "NSPC"
+            ],
+            [
+              "Navy Training and Doctrine Command",
+              "NATDOC"
+            ],
+            [
+              "Navigate",
+              "nav"
+            ],
+            [
+              "Navigation (BN only)",
+              "N"
+            ],
+            [
+              "Navigation and Direction (BN Only)",
+              "ND"
+            ],
+            [
+              "Navy Instructions",
+              "NI"
+            ],
+            [
+              "Navy Regulations",
+              "NR"
+            ],
+            [
+              "Necessary",
+              "nec"
+            ],
+            [
+              "Network Centric Warfare",
+              "NCW"
+            ],
+            [
+              "Next of Kin",
+              "NOK"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Nothing to Report",
+              "NTR"
+            ],
+            [
+              "Notice to Airmen",
+              "NOTAM"
+            ],
+            [
+              "Notice to Move",
+              "NTM"
+            ],
+            [
+              "Nuclear",
+              "nuc"
+            ],
+            [
+              "Nuclear Depth Bomb",
+              "NDB"
+            ],
+            [
+              "Nuclear Killing Zone",
+              "NKZ"
+            ],
+            [
+              "Nuclear Powered Guided Missile Submarine",
+              "SSGN"
+            ],
+            [
+              "Nuclear Powered Submarine",
+              "SSN"
+            ],
+            [
+              "Nuclear Reserved Area",
+              "NRA"
+            ],
+            [
+              "Nuclear, Biological and Chemical",
+              "NBC"
+            ],
+            [
+              "Nuclear, Biological, Chemical Defence Including  Fire Fighting and Damage Control",
+              "NBCD"
+            ],
+            [
+              "Nuclear, Biological and Chemical Warfare",
+              "NBCW"
+            ],
+            [
+              "Number",
+              "O",
+              "no"
+            ],
+            [
+              "Observation",
+              "",
+              "obsn"
+            ],
+            [
+              "Observation Post",
+              "",
+              "OP"
+            ],
+            [
+              "Obstacle(s)",
+              "",
+              "obs"
+            ],
+            [
+              "Occupation",
+              "",
+              "occu"
+            ],
+            [
+              "Off Shore Patrol Vessel",
+              "",
+              "OPV"
+            ],
+            [
+              "Offensive",
+              "",
+              "offn"
+            ],
+            [
+              "Offensive Air Support",
+              "",
+              "OAS"
+            ],
+            [
+              "Offensive Counter Air Operations",
+              "",
+              "OCAO"
+            ],
+            [
+              "Officer",
+              "",
+              "offr"
+            ],
+            [
+              "Officer Conducting the Exercise",
+              "",
+              "OCE"
+            ],
+            [
+              "Officer in Charge",
+              "",
+              "OIC"
+            ],
+            [
+              "Officers’ Basic Course",
+              "",
+              "OBC"
+            ],
+            [
+              "Officers’ Performance Report",
+              "",
+              "OPR"
+            ],
+            [
+              "Officiating",
+              "",
+              "offg"
+            ],
+            [
+              "On the Job Training",
+              "",
+              "OJT"
+            ],
+            [
+              "Operate/Operation",
+              "",
+              "op"
+            ],
+            [
+              "Operational Command",
+              "",
+              "OPCOM"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Operation Other than War",
+              "OOTW"
+            ],
+            [
+              "Oral Order",
+              "OO"
+            ],
+            [
+              "Order (when used in conjunction with other words)",
+              "O"
+            ],
+            [
+              "Order of Battle",
+              "",
+              "ORBAT"
+            ],
+            [
+              "Order of March",
+              "",
+              "OOM"
+            ],
+            [
+              "Orders Group",
+              "",
+              "O gp"
+            ],
+            [
+              "Ordnance",
+              "",
+              "ord"
+            ],
+            [
+              "Ordnance Depot",
+              "",
+              "ordep"
+            ],
+            [
+              "Organize",
+              "",
+              "org"
+            ],
+            [
+              "Organized Armed Group",
+              "",
+              "OAG"
+            ],
+            [
+              "Originate/Original",
+              "",
+              "orig"
+            ],
+            [
+              "Other Rank (s)",
+              "",
+              "OR"
+            ],
+            [
+              "Out Board Motor",
+              "",
+              "OBM"
+            ],
+            [
+              "Outdoor Patient Clinic",
+              "",
+              "OPC"
+            ],
+            [
+              "Overhaul Manual",
+              "",
+              "OM"
+            ],
+            [
+              "Over Head Cover",
+              "",
+              "OHC"
+            ],
+            [
+              "Over Head Protection/Projector",
+              "",
+              "OHP"
+            ],
+            [
+              "Over Staying Leave",
+              "",
+              "OSL"
+            ],
+            [
+              "Over the Horizon",
+              "P",
+              "OTH"
+            ],
+            [
+              "Packet",
+              "",
+              "pkt"
+            ],
+            [
+              "Pamphlet",
+              "",
+              "pamp"
+            ],
+            [
+              "Paper Under Consideration",
+              "",
+              "PUC"
+            ],
+            [
+              "Passage in Line",
+              "",
+              "P in L"
+            ],
+            [
+              "Passage of Information",
+              "",
+              "P of I"
+            ],
+            [
+              "Passenger(s)",
+              "",
+              "pax"
+            ],
+            [
+              "Passive Air Defence",
+              "",
+              "PAD"
+            ],
+            [
+              "Patrol",
+              "",
+              "ptl"
+            ],
+            [
+              "Patrol Craft",
+              "",
+              "PC"
+            ],
+            [
+              "Patrol Craft Squadron",
+              "",
+              "PCS"
+            ],
+            [
+              "Pay, Pension and Allowance",
+              "",
+              "PP&A"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Personnel Service",
+              "PS"
+            ],
+            [
+              "Petroleum",
+              "pet"
+            ],
+            [
+              "Petroleum Pipe Head",
+              "PPH"
+            ],
+            [
+              "Petroleum Point",
+              "PP"
+            ],
+            [
+              "Petroleum, Oil and Lubricants",
+              "POL"
+            ],
+            [
+              "Phase",
+              "ph"
+            ],
+            [
+              "Photograph",
+              "photo"
+            ],
+            [
+              "Physical Training",
+              "PT"
+            ],
+            [
+              "Pioneer",
+              "pnr"
+            ],
+            [
+              "Piquet",
+              "pqt"
+            ],
+            [
+              "Pilot",
+              "plt"
+            ],
+            [
+              "Plain Paper Copier",
+              "PPC"
+            ],
+            [
+              "Plan Position Indicator",
+              "PPI"
+            ],
+            [
+              "Planning",
+              "plg"
+            ],
+            [
+              "Plastic Explosive",
+              "PE"
+            ],
+            [
+              "Point",
+              "pt"
+            ],
+            [
+              "Point Defence Missile System",
+              "PDMS"
+            ],
+            [
+              "Populate",
+              "pop"
+            ],
+            [
+              "Porter",
+              "por"
+            ],
+            [
+              "Position",
+              "posn"
+            ],
+            [
+              "Position and Intended Movement",
+              "PIM"
+            ],
+            [
+              "Position, Course and Speed",
+              "pcs"
+            ],
+            [
+              "Possible/Possibility",
+              "poss"
+            ],
+            [
+              "Post Commission Academic Training",
+              "PCAT"
+            ],
+            [
+              "Power Point Presentation",
+              "ppt"
+            ],
+            [
+              "Practice",
+              "prac"
+            ],
+            [
+              "Pre-Action Calibration",
+              "PAC"
+            ],
+            [
+              "Pre-Joining Training",
+              "PJT"
+            ],
+            [
+              "Preliminary",
+              "prelim"
+            ],
+            [
+              "Prepare",
+              "prep"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Propel",
+              "",
+              "prop"
+            ],
+            [
+              "Protective Fire",
+              "",
+              "PF"
+            ],
+            [
+              "Protocol and Ceremony",
+              "",
+              "P&C"
+            ],
+            [
+              "Provision",
+              "",
+              "prov"
+            ],
+            [
+              "Provost Marshal",
+              "",
+              "PM"
+            ],
+            [
+              "Psychology/Psychological",
+              "",
+              "psy"
+            ],
+            [
+              "Psychological Operations",
+              "",
+              "psyops"
+            ],
+            [
+              "Psychological Warfare",
+              "",
+              "psyW"
+            ],
+            [
+              "Public Information",
+              "",
+              "P info"
+            ],
+            [
+              "Put Up",
+              "",
+              "PU"
+            ],
+            [
+              "Put Up Separately",
+              "Q",
+              "PUS"
+            ],
+            [
+              "Qualified Flying Instructor",
+              "",
+              "QFI"
+            ],
+            [
+              "Qualified Helicopter Instructor",
+              "",
+              "QHI"
+            ],
+            [
+              "Qualified Weapon Instructor",
+              "",
+              "QWI"
+            ],
+            [
+              "Qualify/Qualified/Qualification",
+              "",
+              "qual"
+            ],
+            [
+              "Quantity",
+              "",
+              "qty"
+            ],
+            [
+              "Quarter",
+              "",
+              "qtr"
+            ],
+            [
+              "Quarter Ending",
+              "",
+              "QE"
+            ],
+            [
+              "Quarter Guard",
+              "",
+              "QG"
+            ],
+            [
+              "Question",
+              "",
+              "ques"
+            ],
+            [
+              "Quick Decision Making Process",
+              "",
+              "QDMP"
+            ],
+            [
+              "Quick Reaction/Response Force",
+              "R",
+              "QRF"
+            ],
+            [
+              "Radar Control Gun",
+              "",
+              "RCG"
+            ],
+            [
+              "Radar Cross Section",
+              "",
+              "RCS"
+            ],
+            [
+              "Radiation Hazard",
+              "",
+              "RADHAZ"
+            ],
+            [
+              "Radio Active",
+              "",
+              "rad A"
+            ],
+            [
+              "Radio Detection and Ranging",
+              "",
+              "Radar"
+            ],
+            [
+              "Radio Teletype",
+              "",
+              "RATT"
+            ],
+            [
+              "Radius of Action",
+              "",
+              "ROA"
+            ],
+            [
+              "Railhead",
+              "",
+              "rhd"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Rank",
+              "rk"
+            ],
+            [
+              "Rapid Action Battalion",
+              "RAB"
+            ],
+            [
+              "Rapid Action Force",
+              "RAF"
+            ],
+            [
+              "Rapid Demolition Device",
+              "RDD"
+            ],
+            [
+              "Rapid Runway Repair",
+              "RRR"
+            ],
+            [
+              "Rate of Climb",
+              "ROC"
+            ],
+            [
+              "Rate of Descend",
+              "ROD"
+            ],
+            [
+              "Rate of Fire",
+              "ROF"
+            ],
+            [
+              "Ration Point",
+              "rat P"
+            ],
+            [
+              "Ration Returns",
+              "RR"
+            ],
+            [
+              "Ration(s)",
+              "rat"
+            ],
+            [
+              "Ready to Move",
+              "RTM"
+            ],
+            [
+              "Rear Area",
+              "Rear A"
+            ],
+            [
+              "Rear Combat Zone",
+              "RCZ"
+            ],
+            [
+              "Rear Maintenance Area",
+              "RMA"
+            ],
+            [
+              "Receive/ed",
+              "rcv"
+            ],
+            [
+              "Recognize",
+              "recog"
+            ],
+            [
+              "Recognised Air Picture/ Regimental Aid Post",
+              "RAP"
+            ],
+            [
+              "Recognized Maritime Picture",
+              "RMP"
+            ],
+            [
+              "Recommendation",
+              "recom"
+            ],
+            [
+              "Reconnaissance Group",
+              "R gp"
+            ],
+            [
+              "Reconnaissance/Reconnoitre",
+              "recce"
+            ],
+            [
+              "Recreation Leave",
+              "R Lve"
+            ],
+            [
+              "Recruit",
+              "rect"
+            ],
+            [
+              "Refer/Reference(s)",
+              "Ref(s)"
+            ],
+            [
+              "Regiment (al) (ation)",
+              "regt"
+            ],
+            [
+              "Regimental Aid Post",
+              "RAP"
+            ],
+            [
+              "Regimental Command Post",
+              "RCP"
+            ],
+            [
+              "Regimental Headquarters",
+              "RHQ"
+            ],
+            [
+              "Region Military Commander",
+              "RMC"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Replenish",
+              "replen"
+            ],
+            [
+              "Represent",
+              "rep"
+            ],
+            [
+              "Request",
+              "req"
+            ],
+            [
+              "Require",
+              "reqr"
+            ],
+            [
+              "Requisition",
+              "rqn"
+            ],
+            [
+              "Research and Development",
+              "R&D"
+            ],
+            [
+              "Reserve(s)",
+              "res"
+            ],
+            [
+              "Restricted/Restriction",
+              "restd"
+            ],
+            [
+              "Respiratory Minute Volume",
+              "RMV"
+            ],
+            [
+              "Responsible/Responsibility",
+              "resp"
+            ],
+            [
+              "Retail Issue Shop",
+              "RIS"
+            ],
+            [
+              "Retired",
+              "retd"
+            ],
+            [
+              "Return to Base",
+              "RTB"
+            ],
+            [
+              "Return to Unit",
+              "RTU"
+            ],
+            [
+              "Revenue",
+              "rev"
+            ],
+            [
+              "Rigid Hull Inflatable Boat",
+              "RHIB"
+            ],
+            [
+              "Rifle",
+              "rfl"
+            ],
+            [
+              "Rifleman",
+              "rfn"
+            ],
+            [
+              "Right",
+              "rt"
+            ],
+            [
+              "Rigorous Imprisonment",
+              "RI"
+            ],
+            [
+              "River",
+              "riv"
+            ],
+            [
+              "Road Head",
+              "rdH"
+            ],
+            [
+              "Rocket",
+              "rkt"
+            ],
+            [
+              "Rocket Launcher",
+              "RL"
+            ],
+            [
+              "Rocket Propelled Grenade",
+              "RPG"
+            ],
+            [
+              "Rounds per gun",
+              "rpg"
+            ],
+            [
+              "Rounds per mortar",
+              "r/mor"
+            ],
+            [
+              "Route March",
+              "RM"
+            ],
+            [
+              "Router",
+              "rtr"
+            ],
+            [
+              "Routine in Line",
+              "R in L"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Scene of Action Commander",
+              "SAC"
+            ],
+            [
+              "Scheme of Manoeuvre",
+              "S of M"
+            ],
+            [
+              "School of Maritime Warfare and Tactics",
+              "SMWT"
+            ],
+            [
+              "Sea Air Land",
+              "SEAL"
+            ],
+            [
+              "Sea Control Tactical Analysis Game",
+              "SEATAG"
+            ],
+            [
+              "Sea Exercise Programme",
+              "SEP"
+            ],
+            [
+              "Sea Lines of Communication",
+              "SLOC"
+            ],
+            [
+              "Search and Rescue",
+              "SAR"
+            ],
+            [
+              "Search and Rescue Beacon",
+              "SRB"
+            ],
+            [
+              "Search Attack Unit",
+              "SAU"
+            ],
+            [
+              "Search Light",
+              "SL"
+            ],
+            [
+              "Secretariate/Secretarial",
+              "sectt"
+            ],
+            [
+              "Secretary",
+              "secy"
+            ],
+            [
+              "Sector/Squadron Headquarters",
+              "SHQ"
+            ],
+            [
+              "Sector Operation Centre",
+              "SOC"
+            ],
+            [
+              "Security",
+              "sy"
+            ],
+            [
+              "Security Intelligence Report",
+              "SIR"
+            ],
+            [
+              "Selective Stockade List",
+              "SSL"
+            ],
+            [
+              "Self Loading Rifle",
+              "SLR"
+            ],
+            [
+              "Seriously Ill List",
+              "SIL"
+            ],
+            [
+              "Senior (ity)",
+              "sr"
+            ],
+            [
+              "Sena Kalyan Shangstha",
+              "SKS"
+            ],
+            [
+              "Sequence",
+              "seq"
+            ],
+            [
+              "Serial (ly) (ity)",
+              "ser"
+            ],
+            [
+              "Service",
+              "svc"
+            ],
+            [
+              "Shelling Report",
+              "SHELREP"
+            ],
+            [
+              "Ship Controlled Approach",
+              "SCA"
+            ],
+            [
+              "Ships Taken up from Trade",
+              "STUFT"
+            ],
+            [
+              "Short Range Air Defence",
+              "SHORAD"
+            ],
+            [
+              "Short Range Ballistic Missile",
+              "SRBM"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Situation sit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Situation Report SITREP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Situation Template SITTEMP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Situational Training Exercise STX"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sketch sk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Small Arms SA"
+        },
+        {
+          "type": "paragraph",
+          "text": "Small Arms Ammunition SAA Small Group Operation SGO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Smoke smk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Soldier (ly) sldr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Solution soln"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sonar Control Room SCR"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sonar Sound Telephony SST"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sound Ranging Srg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Source src"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spanner spnr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spare Parts Distributing Centre SPDC"
+        },
+        {
+          "type": "paragraph",
+          "text": "Speak spk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Special Air Operation SAO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Special Bangladesh Army Order SBAO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Special Boat Combat Crew SBCC Special Boat Squadron SBS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Special Investigation Branch SIB"
+        },
+        {
+          "type": "paragraph",
+          "text": "Special Occurrence Report SOR"
+        },
+        {
+          "type": "paragraph",
+          "text": "Special Sea Exercise Program SSEP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Special Security Force SSF"
+        },
+        {
+          "type": "paragraph",
+          "text": "Specialize spl"
+        },
+        {
+          "type": "paragraph",
+          "text": "Specify spec"
+        },
+        {
+          "type": "paragraph",
+          "text": "Speed spd"
+        },
+        {
+          "type": "paragraph",
+          "text": "Speed of Advance SOA"
+        },
+        {
+          "type": "paragraph",
+          "text": "Squadron sqn"
+        },
+        {
+          "type": "paragraph",
+          "text": "Square sq"
+        },
+        {
+          "type": "paragraph",
+          "text": "Staff Continuation Training SCT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Staff Course SC Staff Officer SO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Standardize std"
+        },
+        {
+          "type": "paragraph",
+          "text": "Standing Operating Procedure SOP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Start Line SL"
+        },
+        {
+          "type": "paragraph",
+          "text": "Station sta"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Stationery",
+              "sty"
+            ],
+            [
+              "Steel Wire Rope",
+              "SWR"
+            ],
+            [
+              "Stenographer",
+              "steno"
+            ],
+            [
+              "Strafing",
+              "stg"
+            ],
+            [
+              "Strategic(al)/Strategy",
+              "strat"
+            ],
+            [
+              "Strength",
+              "str"
+            ],
+            [
+              "Sub Surface Raid Reporting Control Ship",
+              "SSRRCS"
+            ],
+            [
+              "Subject",
+              "subj"
+            ],
+            [
+              "Submarine",
+              "SS"
+            ],
+            [
+              "Submarine Launched Ballistic Missile",
+              "SLBM"
+            ],
+            [
+              "Submarine Operating Area",
+              "SOA"
+            ],
+            [
+              "Submarine Operating Authority",
+              "SUBOPATH"
+            ],
+            [
+              "Submarine Probable Area",
+              "SPA"
+            ],
+            [
+              "Subordinate",
+              "subord"
+            ],
+            [
+              "Subscription",
+              "subs"
+            ],
+            [
+              "Substantive",
+              "subt"
+            ],
+            [
+              "Suggest/Suggestion",
+              "sug"
+            ],
+            [
+              "Subject Indicator Code",
+              "SIC"
+            ],
+            [
+              "Summary Court Martial",
+              "SCM"
+            ],
+            [
+              "Summary General Court Martial",
+              "SGCM"
+            ],
+            [
+              "Summary of Evidence",
+              "S of E"
+            ],
+            [
+              "Summer Training",
+              "ST"
+            ],
+            [
+              "Supervision/Supervise",
+              "spv"
+            ],
+            [
+              "Super High Frequency",
+              "SHF"
+            ],
+            [
+              "Superintendent",
+              "suptd"
+            ],
+            [
+              "Superintending Engineer",
+              "SE"
+            ],
+            [
+              "Supernumerary",
+              "sny"
+            ],
+            [
+              "Supplementary Intelligence Report",
+              "SUPINTREP"
+            ],
+            [
+              "Supply",
+              "sup"
+            ],
+            [
+              "Supply and Secretariat",
+              "S & S"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Surface to Air Missile",
+              "SAM"
+            ],
+            [
+              "Surface to Surface Guided Weapon",
+              "SSGW"
+            ],
+            [
+              "Surface to Surface Missile",
+              "SSM"
+            ],
+            [
+              "Surface Warfare",
+              "SW"
+            ],
+            [
+              "Surplus",
+              "sur"
+            ],
+            [
+              "Surveil/Surveillance",
+              "surv"
+            ],
+            [
+              "Surveillance and Target Acquisition (Plan)",
+              "STA(P)"
+            ],
+            [
+              "Surveillance Control and Reporting",
+              "SC&R"
+            ],
+            [
+              "Survey",
+              "svy"
+            ],
+            [
+              "Special Warfare Diving and Salvage",
+              "SWADS"
+            ],
+            [
+              "Switch",
+              "sw"
+            ],
+            [
+              "Switchboard",
+              "swbd"
+            ],
+            [
+              "Symbol",
+              "sym"
+            ],
+            [
+              "Synchronize",
+              "sync"
+            ],
+            [
+              "Syllabus",
+              "syl"
+            ],
+            [
+              "Syndicate",
+              "syn"
+            ],
+            [
+              "System T",
+              "sys"
+            ],
+            [
+              "Table of Organization and Equipment",
+              "TO&E"
+            ],
+            [
+              "Tabulated Record and Comparative Evaluation",
+              "TRACE"
+            ],
+            [
+              "Tactic(al)(s)",
+              "tac"
+            ],
+            [
+              "Tactical Air Control Centre",
+              "TACC"
+            ],
+            [
+              "Tactical Air Control Party",
+              "TACP"
+            ],
+            [
+              "Tactical Air Management",
+              "TAM"
+            ],
+            [
+              "Tactical Air Request",
+              "TAR"
+            ],
+            [
+              "Tactical Air Support of Land/Maritime Operations",
+              "TASLO/ TASMO"
+            ],
+            [
+              "Tactical Area of Operational Responsibility",
+              "TAOR"
+            ],
+            [
+              "Tactical Doctrine",
+              "TD"
+            ],
+            [
+              "Tactical Command",
+              "TACOM"
+            ],
+            [
+              "Tactical Control",
+              "TACON"
+            ],
+            [
+              "Tactical Exercise Without Troops",
+              "TEWT"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Tank",
+              "tk"
+            ],
+            [
+              "Target",
+              "tgt"
+            ],
+            [
+              "Target Area of Interest",
+              "TAI"
+            ],
+            [
+              "Target Engagement Message",
+              "TEM"
+            ],
+            [
+              "Target Indicator Unit",
+              "TIU"
+            ],
+            [
+              "Task Force",
+              "TF"
+            ],
+            [
+              "Technical Investigation Report",
+              "TIR"
+            ],
+            [
+              "Technical Maintenance",
+              "TM"
+            ],
+            [
+              "Technical Support Team",
+              "TST"
+            ],
+            [
+              "Technical Training Institution",
+              "TTI"
+            ],
+            [
+              "Telephone Control Box",
+              "TCB"
+            ],
+            [
+              "Telephone Conversation",
+              "telcon"
+            ],
+            [
+              "Temperature",
+              "temp"
+            ],
+            [
+              "Temporary",
+              "ty"
+            ],
+            [
+              "Temporary Duty",
+              "tdy"
+            ],
+            [
+              "Temporary Maintenance Instruction",
+              "TMI"
+            ],
+            [
+              "Temporary Minimum Risk Route",
+              "TMRR"
+            ],
+            [
+              "Tentacle",
+              "tcl"
+            ],
+            [
+              "Terrain Analysis",
+              "TERAN"
+            ],
+            [
+              "Time Critical Asset",
+              "TCA"
+            ],
+            [
+              "Time Mechanical Fuze",
+              "TM fuze"
+            ],
+            [
+              "Time of Despatch",
+              "TOD"
+            ],
+            [
+              "Time of Receipt",
+              "TOR"
+            ],
+            [
+              "Time Past a Point",
+              "TPP"
+            ],
+            [
+              "Time Phase Line",
+              "TPL"
+            ],
+            [
+              "Top Secret",
+              "TOPSEC"
+            ],
+            [
+              "Torpedo Countermeasure",
+              "TCM"
+            ],
+            [
+              "Torpedo Danger Area",
+              "TDA"
+            ],
+            [
+              "Torpedo Danger Zone",
+              "TDZ"
+            ],
+            [
+              "Toxic Incident Report",
+              "TOXREP"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Transmitting Station",
+              "TS"
+            ],
+            [
+              "Transfer of Technology/Time on Target",
+              "TOT"
+            ],
+            [
+              "Transport (ed) (ing)",
+              "tpt"
+            ],
+            [
+              "Transportation",
+              "tn"
+            ],
+            [
+              "Transporter",
+              "tptr"
+            ],
+            [
+              "Trigonometrically/Trigonometry",
+              "trig"
+            ],
+            [
+              "Troop",
+              "tp"
+            ],
+            [
+              "Troop Carrying Vehicle",
+              "TCV"
+            ],
+            [
+              "Tube-launched Optically guided Warhead",
+              "TOW"
+            ],
+            [
+              "Tutorial Discussion",
+              "TD"
+            ],
+            [
+              "Tug Repair and Logistic Area U",
+              "TRALA"
+            ],
+            [
+              "Ultra High Frequency",
+              "UHF"
+            ],
+            [
+              "Ultra Low Frequency",
+              "ULF"
+            ],
+            [
+              "Umpire",
+              "ump"
+            ],
+            [
+              "Unclassified",
+              "uncl"
+            ],
+            [
+              "Unarmed/Unmanned Aerial System/Vehicle",
+              "UAS/UAV"
+            ],
+            [
+              "Unarmed/Unmanned Combat Aerial Vehicle",
+              "UCAV"
+            ],
+            [
+              "Unconventional",
+              "unconv"
+            ],
+            [
+              "Unconventional Warfare",
+              "UCW"
+            ],
+            [
+              "Unconventional Warfare Force",
+              "UWF"
+            ],
+            [
+              "Under Command",
+              "UC"
+            ],
+            [
+              "Under Command for Administration",
+              "UCADMIN"
+            ],
+            [
+              "Under Command for Daily Maintenance",
+              "UCDM"
+            ],
+            [
+              "Under Command for Movement",
+              "UCM"
+            ],
+            [
+              "Under Mentioned",
+              "u/m"
+            ],
+            [
+              "Underwater Warfare",
+              "UWW"
+            ],
+            [
+              "Unexploded Bomb",
+              "UXB"
+            ],
+            [
+              "Uniform",
+              "unf"
+            ],
+            [
+              "Unmanned Aerial Vehicle",
+              "UAV"
+            ],
+            [
+              "Unmanned Combat Aerial Vehicle",
+              "UCAV"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "V"
+        }
+      ]
+    },
+    {
+      "section": 16,
       "title": "ANNEX B TO SECTION 16 - ABBREVIATIONS WITH MULTIPLE MEANING",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX B",
       "content": [
         {
           "type": "paragraph",
@@ -28241,7 +31603,8 @@
     {
       "section": 16,
       "title": "ANNEX C TO SECTION 16 - RANKS AND APPOINTMENTS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "paragraph",
@@ -28550,7 +31913,8 @@
     {
       "section": 16,
       "title": "ANNEX D TO SECTION 16 - NATIONAL DISTINGUISHING LETTERS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX D",
       "content": [
         {
           "type": "paragraph",
@@ -28788,7 +32152,8 @@
     {
       "section": 16,
       "title": "ANNEX E TO SECTION 16 - LIST OF ABBREVIATIONS OF TRAINING INSTITUTIONS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX E",
       "content": [
         {
           "type": "table",
@@ -28949,7 +32314,8 @@
     {
       "section": 16,
       "title": "16E-3 ANNEX F TO SECTION 16 - REGIMENTS AND CORPS IN THE ARMY",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX F",
       "content": [
         {
           "type": "paragraph",
@@ -29193,7 +32559,8 @@
     {
       "section": 16,
       "title": "ANNEX G TO SECTION 16 - BASES, UNITS AND BRANCHES OF BANGLADESH NAVY",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX G",
       "content": [
         {
           "type": "paragraph",
@@ -29400,7 +32767,8 @@
     {
       "section": 16,
       "title": "ANNEX H TO SECTION 16 - BASES, UNITS AND BRANCHES OF BANGLADESH AIR FORCE",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX H",
       "content": [
         {
           "type": "paragraph",
@@ -29607,7 +32975,8 @@
     {
       "section": 17,
       "title": "ANNEX A TO SECTION 17 BASIC UNIT AND LOGISTICAL ROLE INDICATORS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "table",
@@ -29873,7 +33242,8 @@
     {
       "section": 17,
       "title": "ANNEX B TO SECTION 17 SIZE INDICATORS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX B",
       "content": [
         {
           "type": "table",
@@ -29959,7 +33329,8 @@
     {
       "section": 17,
       "title": "17B-2 ANNEX C TO SECTION 17 - WEAPON SYMBOLS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "table",
@@ -30059,7 +33430,8 @@
     {
       "section": 17,
       "title": "17C-2 ANNEX D TO SECTION 17 TRANSPORT SYMBOLS AND MOBILITY INDICATORS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX D",
       "content": [
         {
           "type": "table",
@@ -30180,7 +33552,8 @@
     {
       "section": 17,
       "title": "17D-2 ANNEX E TO SECTION 17 ELECTRONIC INSTALLATION INDICATORS AND ACTIVITIES",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX E",
       "content": [
         {
           "type": "table",
@@ -30266,7 +33639,8 @@
     {
       "section": 17,
       "title": "ANNEX F TO SECTION 17 - TERRAIN AND TACTICAL ACTIVITIES",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX F",
       "content": [
         {
           "type": "paragraph",
@@ -30474,6 +33848,7 @@
       "section": 17,
       "title": "ANNEX G TO SECTION 17 - EXAMPLES",
       "type": "example",
+      "annex": "ANNEX G",
       "content": [
         {
           "type": "table",
@@ -30691,7 +34066,8 @@
     {
       "section": 17,
       "title": "ANNEX H TO SECTION 17 STANDARD LAYOUT TO MARK THE MAP, OVERLAY AND SKETCH - SECURITY CLASSIFICATION (1)",
-      "type": "example",
+      "type": "layout",
+      "annex": "ANNEX H",
       "content": [
         {
           "type": "paragraph",
@@ -30746,7 +34122,8 @@
     {
       "section": 18,
       "title": "ANNEX A TO SECTION 18 - SHIP, SUBMARINE AND HELICOPTER SYMBOLS USED ON PLOTS,",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "paragraph",
@@ -30950,7 +34327,8 @@
     {
       "section": 18,
       "title": "18A-2 ANNEX B TO SECTION 18 - SUPPLEMENTARY SYMBOLS USED ON CHARTS, TABLES AND ARL TABLES",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX B",
       "content": [
         {
           "type": "table",
@@ -31009,7 +34387,8 @@
     {
       "section": 18,
       "title": "18B-2 ANNEX C TO SECTION 18 - SYMBOLS USED IN NAVY",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "table",
@@ -31056,7 +34435,8 @@
     {
       "section": 19,
       "title": "ANNEX A TO SECTION 19 - SYMBOL USED IN OPERATIONAL OR OPERATION, NAVIGATION AND ROUTE CHARTS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX A",
       "content": [
         {
           "type": "table",
@@ -31163,7 +34543,8 @@
     {
       "section": 19,
       "title": "ANNEX B TO SECTION 19 - AIRFIELD GROUND SIGNAL AND MARKINGS",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX B",
       "content": [
         {
           "type": "table",
@@ -31264,7 +34645,8 @@
     {
       "section": 19,
       "title": "ANNEX C TO SECTION 19 19C-1",
-      "type": "example",
+      "type": "annex",
+      "annex": "ANNEX C",
       "content": [
         {
           "type": "paragraph",

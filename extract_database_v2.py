@@ -306,43 +306,44 @@ BANGLA_ABBR_TABLES = [522, 531, 533, 535, 537, 541, 544, 546]
 
 def is_valid_annex_start(text):
     t_upper = text.upper().strip()
-    
+
     if len(text) >= 120:
         return False
-        
-    # Plural ANNEXES is generally a section heading/intro
+
+    # Plural ANNEXES is generally a section heading/intro, not a template start
     if 'ANNEXES' in t_upper and 'ANNEX' not in t_upper.replace('ANNEXES', ''):
         return False
-        
-    # Standalone special headings
-    if t_upper in ['EXAMPLE OF A COMMANDED LETTER', 'EXAMPLE OF A DIRECTED LETTER', 'EXAMPLE OF A ROUTINE LETTER']:
-        return True
-        
-    # Must contain ANNEX or APPENDIX or APPX or ANX
-    if not any(w in t_upper for w in ['ANNEX', 'APPENDIX', 'APPX', 'ANX']):
-        return False
-        
-    # Enforce containing TO or SECTION for all annex/appendix headings
-    if not ('TO' in t_upper or 'SECTION' in t_upper):
-        return False
-        
+
     words = t_upper.split()
     if not words:
         return False
-        
     first_word = words[0]
-    
-    # Allowed first words
-    allowed_first = ['ANNEX', 'APPENDIX', 'APPX', 'ANX', 'SECRET', 'STANDARD', 'FORMAT', 'LAYOUT']
-    if first_word in allowed_first:
-        if first_word in ['STANDARD', 'FORMAT', 'LAYOUT', 'EXAMPLE'] and text.strip().endswith('.') and len(text) > 40:
+
+    # Template keyword headings (don't require ANNEX/TO)
+    template_first = ['EXAMPLE', 'SPECIMEN', 'FRAMEWORK', 'MEMORANDUM', 'MODEL', 'SAMPLE']
+    if first_word in template_first:
+        # Reject sentence-like text (ends with period and is long)
+        if text.strip().endswith('.') and len(text) > 50:
             return False
         return True
-        
-    # Check if first word is a page prefix like 3D-2 or 16E-3
-    if re.match(r'^\d+[A-Z]\d*-\d+$', first_word):
+
+    # ANNEX/APPENDIX headings require TO or SECTION
+    if any(w in t_upper for w in ['ANNEX', 'APPENDIX', 'APPX', 'ANX']):
+        if 'TO' in t_upper or 'SECTION' in t_upper:
+            annex_first = ['ANNEX', 'APPENDIX', 'APPX', 'ANX', 'SECRET']
+            if first_word in annex_first:
+                return True
+            # Page prefix like 3D-2 or 16E-3
+            if re.match(r'^\d+[A-Z]\d*-\d+$', first_word):
+                return True
+
+    # LAYOUT/FORMAT/STANDARD headings (standalone, no ANNEX required)
+    layout_first = ['LAYOUT', 'FORMAT', 'STANDARD', 'OUTLINE']
+    if first_word in layout_first:
+        if text.strip().endswith('.') and len(text) > 50:
+            return False
         return True
-        
+
     return False
 
 
@@ -911,10 +912,54 @@ def main():
                     elif b['type'] == 'tbl':
                         annex_content.append({"type": "table", "rows": b['rows'][:30]})
 
+                # Classify template type from title
+                title_upper = t["title"].upper()
+                if 'APPENDIX' in title_upper:
+                    tpl_type = 'appendix'
+                elif 'ANNEX' in title_upper and not any(kw in title_upper for kw in ['EXAMPLE', 'SPECIMEN', 'LAYOUT', 'FORMAT', 'FRAMEWORK']):
+                    tpl_type = 'annex'
+                elif 'SPECIMEN' in title_upper:
+                    tpl_type = 'specimen'
+                elif 'LAYOUT' in title_upper or 'OUTLINE' in title_upper:
+                    tpl_type = 'layout'
+                elif 'FORMAT' in title_upper or 'FRAMEWORK' in title_upper:
+                    tpl_type = 'format'
+                elif 'MEMORANDUM' in title_upper:
+                    tpl_type = 'memorandum'
+                elif 'LETTER' in title_upper and 'EXAMPLE' not in title_upper:
+                    tpl_type = 'letter'
+                elif 'CORRESPONDENCE' in title_upper:
+                    tpl_type = 'correspondence'
+                elif 'SAMPLE' in title_upper:
+                    tpl_type = 'sample'
+                elif 'MODEL' in title_upper:
+                    tpl_type = 'model'
+                else:
+                    tpl_type = 'example'
+
+                # Extract annex reference (e.g. "ANNEX B TO SECTION 11")
+                annex_ref = ""
+                annex_match = re.search(r'(ANNEX\s+[A-Z]\d*)\s+(?:TO\s+)?(?:SECTION\s+\d+)?', title_upper)
+                if annex_match:
+                    annex_ref = annex_match.group(1)
+                appendix_match = re.search(r'(APPENDIX\s+\d+)\s+(?:TO\s+)?', title_upper)
+                if appendix_match:
+                    annex_ref = appendix_match.group(1)
+
+                # Filter obvious non-template noise
+                noise_indicators = [
+                    "THE VERB", "IS USED ONLY", "WRONG EXAMPLE", "CORRECT EXAMPLE",
+                    "LETTERED CONSECUTIVELY", "REFERRED TO IN THE TEXT",
+                    "COPY NUMBERED", "NUMBERING OF"
+                ]
+                if any(ni in title_upper for ni in noise_indicators):
+                    continue
+
                 templates.append({
                     "section": sec_num,
                     "title": t["title"],
-                    "type": "example",
+                    "type": tpl_type,
+                    "annex": annex_ref,
                     "content": annex_content[:50]
                 })
 
@@ -941,7 +986,6 @@ def main():
                     text = b['text']
                     if 'ANNEX' in text and len(text) < 100:
                         current_annex_title = text
-                    # Extract rule-like content for symbols sections
                     rule_match = re.match(r'^(\d{4})[.\s]\s*(.*)', text)
                     if rule_match:
                         rules.append({
@@ -966,18 +1010,14 @@ def main():
 
         print(f"Total symbols: {len(symbols)}")
 
-        # ─── Phase 7: Build final database ───
-        # Remove 'synthetic' flag from rules
         for r in rules:
             r.pop('synthetic', None)
 
-        # Sort rules by section then ID
         def sort_key(r):
             sec = re.search(r'\d+', r['section'])
             sec_num = int(sec.group()) if sec else 0
             rid = r['id']
             if rid.startswith('S') and '-' in rid:
-                # Synthetic ID like S10-001 -> sort after real IDs
                 id_num = 90000 + int(rid.split('-')[1])
             else:
                 try:
@@ -988,7 +1028,6 @@ def main():
 
         rules.sort(key=sort_key)
 
-        # Remove duplicate rules
         seen_rules = set()
         unique_rules = []
         for r in rules:
@@ -996,8 +1035,8 @@ def main():
             if key not in seen_rules:
                 seen_rules.add(key)
                 unique_rules.append(r)
+        rules = unique_rules
 
-        # Define vocab table mapping terminology pairs for Bangla/English toggle
         vocab = [
             {"english": "TOP SECRET", "bangla": "অতি গোপনীয়", "category": "Security Classification"},
             {"english": "SECRET", "bangla": "বিশেষ গোপনীয়", "category": "Security Classification"},
@@ -1012,12 +1051,10 @@ def main():
             {"english": "Urgent", "bangla": "জরুরি", "category": "Civil Precedence"}
         ]
 
-        # Consolidate multi-meaning abbreviations into 16B automatically
         from collections import defaultdict
         abbr_map = defaultdict(list)
         for a in abbreviations:
             abbr_map[a['abbreviation'].upper()].append(a)
-            
         for upper_abbr, entries in abbr_map.items():
             unique_meanings = list(dict.fromkeys(e['meaning'] for e in entries))
             if len(unique_meanings) > 1:
@@ -1050,7 +1087,6 @@ def main():
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(db, f, ensure_ascii=False, indent=2)
 
-        # Summary
         print("\nEXTRACTION SUMMARY")
         print("Rules:         ", len(rules))
         print("Abbreviations: ", len(abbreviations))
@@ -1062,10 +1098,11 @@ def main():
         for sec in sorted(sec_counts.keys(), key=lambda s: int(re.search(r'\d+', s).group()) if re.search(r'\d+', s) else 0):
             print("  {}: {}".format(sec, sec_counts[sec]))
 
-        sub_counts = Counter(a['subcategory'] for a in abbreviations)
-        print("\nAbbreviations by subcategory:")
-        for sub in sorted(sub_counts.keys()):
-            print("  {}: {}".format(sub, sub_counts[sub]))
+
+        tpl_types = Counter(t['type'] for t in templates)
+        print("\nTemplates by type:")
+        for tp in sorted(tpl_types.keys()):
+            print("  {}: {}".format(tp, tpl_types[tp]))
 
         print("\nSaved to", output_path)
 
